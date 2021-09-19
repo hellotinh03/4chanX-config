@@ -26,9 +26,24 @@ div.boardTitle {
 
 
 /*  - Image hovering fancy animation -  */
-img:hover {
-  opacity: 0.5 !important;
-  transition: 0.3s ease-in-out !important;
+/* Image */
+img {
+  transition: opacity 0.2s ease-in-out !important;
+}
+img:hover,
+img:focus {
+  opacity: 0.75 !important;
+}
+/* Reply box buttons */
+button#t-load,
+button#t-help, {
+  transition: opacity 0.2s ease-in-out !important;
+}
+button#t-load:hover,
+button#t-load:focus,
+button#t-help:hover,
+button#t-help:focus {
+  opacity: 0.75 !important;
 }
 
 
@@ -85,13 +100,11 @@ input#t-resp {
   border-color: transparent !important;
 }
 /* Still reply box but it's the "Get CAPTCHA" button */
-}
-button#t-load {
+#qr button#t-load {
   border-color: transparent !important;
   border-radius: 5px !important;
 }
 /* Still reply box but it's the "?" button */
-}
 button#t-help {
   border-color: transparent !important;
   border-radius: 5px !important;
@@ -103,9 +116,13 @@ div#t-bg {
 div#t-fg {
   border-radius: 5px !important;
 }
-/* Still reply box but it's the "Files", drop down menu and "Submit" buttons */
-#qr-draw-button {
+/* Still reply box but it's the drop down menu */
+#qr select {
   border-color: transparent !important;
+  border-radius: 5px !important;
+}
+div#file-n-submit input {
+  border-color: grey !important;
   border-radius: 5px !important;
 }
 
