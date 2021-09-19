@@ -96,8 +96,15 @@ button#t-help {
   border-color: transparent !important;
   border-radius: 5px !important;
 }
-/* Still reply box but it's the drop down menu */
-#qr select {
+/* Still reply box but it's the CAPTCHA box */
+div#t-bg {
+  border-radius: 5px !important;
+}
+div#t-fg {
+  border-radius: 5px !important;
+}
+/* Still reply box but it's the "Files", drop down menu and "Submit" buttons */
+#qr-draw-button {
   border-color: transparent !important;
   border-radius: 5px !important;
 }
