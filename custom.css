@@ -68,11 +68,11 @@ iframe {
 .qr-link {
   border-radius: 5px !important;
   background: rgb(49, 50, 55);
-  border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+  border-color: transparent !important;
 }
 /* Reply box */
 #qr {
-  border-radius: 3px !important;
+  border-radius: 7.5px !important;
 }
 /* Still reply box but it's the text field */
 :root.tomorrow #qr .field {
@@ -81,12 +81,26 @@ iframe {
 /* Still reply box but it's the CAPTCHA typing field */
 input#t-resp {
   border-radius: 5px !important;
+  background: rgb(49, 50, 55);
+  border-color: transparent !important;
 }
 /* Still reply box but it's the "Get CAPTCHA" button */
 }
 button#t-load {
-  border-color: transparent;
-  border-radius: 5px;
+  border-color: transparent !important;
+  border-radius: 5px !important;
+}
+/* Still reply box but it's the "?" button */
+}
+button#t-help {
+  border-color: transparent !important;
+  border-radius: 5px !important;
+}
+/* Still reply box but it's the drop down menu */
+#qr select {
+  border-color: transparent !important;
+  border-radius: 5px !important;
+}
 
 
 /*  - Hiding things -  */
@@ -107,6 +121,4 @@ div#absbot {
 border: none !important;
 }
 
-
-/*  - Make UI more flat and soulless (like me) -  */
 
