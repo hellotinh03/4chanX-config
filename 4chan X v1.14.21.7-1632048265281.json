@@ -1,0 +1,2542 @@
+{
+  "version": "1.14.21.7",
+  "date": 1632048265281,
+  "Conf": {
+    "Redirect to HTTPS": true,
+    "JSON Index": true,
+    "Use 4chan X Catalog": true,
+    "Index Refresh Notifications": false,
+    "Follow Cursor": true,
+    "Open Threads in New Tab": true,
+    "External Catalog": false,
+    "Catalog Links": false,
+    "Announcement Hiding": true,
+    "Desktop Notifications": true,
+    "404 Redirect": true,
+    "Archive Report": true,
+    "Exempt Archives from Encryption": true,
+    "Keybinds": true,
+    "Time Formatting": true,
+    "Relative Post Dates": true,
+    "Relative Date Title": true,
+    "Comment Expansion": true,
+    "File Info Formatting": true,
+    "Thread Expansion": true,
+    "Index Navigation": false,
+    "Reply Navigation": false,
+    "Unique ID and Capcode Navigation": false,
+    "Custom Board Titles": false,
+    "Persistent Custom Board Titles": false,
+    "Show Updated Notifications": true,
+    "Color User IDs": true,
+    "Count Posts by ID": true,
+    "Remove Spoilers": false,
+    "Reveal Spoilers": false,
+    "Normalize URL": true,
+    "Work around CORB Bug": true,
+    "Disable Autoplaying Sounds": false,
+    "Disable Native Extension": true,
+    "Enable Native Flash Embedding": true,
+    "Linkify": true,
+    "Link Title": true,
+    "Cover Preview": true,
+    "Embedding": true,
+    "Auto-embed": false,
+    "Floating Embeds": true,
+    "Anonymize": false,
+    "Filter": true,
+    "Filtered Backlinks": false,
+    "Filter in Native Catalog": true,
+    "MD5 Quick Filter Notifications": true,
+    "Recursive Hiding": true,
+    "Thread Hiding Buttons": true,
+    "Reply Hiding Buttons": true,
+    "Stubs": true,
+    "Image Expansion": true,
+    "Image Hover": true,
+    "Image Hover in Catalog": true,
+    "Gallery": true,
+    "Fullscreen Gallery": false,
+    "PDF in Gallery": false,
+    "Sauce": true,
+    "WEBM Metadata": true,
+    "Reveal Spoiler Thumbnails": true,
+    "Replace GIF": true,
+    "Replace JPG": false,
+    "Replace PNG": false,
+    "Replace WEBM": false,
+    "Image Prefetching": true,
+    "Fappe Tyme": true,
+    "Werk Tyme": true,
+    "Autoplay": true,
+    "Restart when Opened": false,
+    "Show Controls": true,
+    "Click Passthrough": false,
+    "Allow Sound": true,
+    "Mouse Wheel Volume": true,
+    "Loop in New Tab": true,
+    "Volume in New Tab": true,
+    "Menu": true,
+    "Report Link": true,
+    "Copy Text Link": true,
+    "Thread Hiding Link": true,
+    "Reply Hiding Link": true,
+    "Delete Link": true,
+    "Archive Link": true,
+    "Edit Link": true,
+    "Download Link": false,
+    "Thread Updater": true,
+    "Unread Count": true,
+    "Quoted Title": false,
+    "Hide Unread Count at (0)": false,
+    "Unread Favicon": true,
+    "Unread Line": true,
+    "Remember Last Read Post": true,
+    "Scroll to Last Read Post": true,
+    "Unread Line in Index": false,
+    "Remove Thread Excerpt": false,
+    "Thread Stats": true,
+    "IP Count in Stats": true,
+    "Page Count in Stats": true,
+    "Updater and Stats in Header": true,
+    "Thread Watcher": true,
+    "Fixed Thread Watcher": true,
+    "Persistent Thread Watcher": false,
+    "Mark New IPs": false,
+    "Reply Pruning": true,
+    "Prune All Threads": false,
+    "Quick Reply": true,
+    "Persistent QR": false,
+    "Auto Hide QR": true,
+    "Open Post in New Tab": true,
+    "Remember QR Size": false,
+    "Remember Spoiler": false,
+    "Randomize Filename": true,
+    "Show New Thread Option in Threads": true,
+    "Show Upload Progress": true,
+    "Cooldown": true,
+    "Posting Success Notifications": true,
+    "Auto-load captcha": true,
+    "Post on Captcha Completion": true,
+    "Captcha Fixes": true,
+    "Force Noscript Captcha": false,
+    "Pass Link": false,
+    "Quote Backlinks": true,
+    "OP Backlinks": true,
+    "Bottom Backlinks": false,
+    "Quote Inlining": true,
+    "Inline Cross-thread Quotes Only": false,
+    "Quote Hash Navigation": false,
+    "Forward Hiding": true,
+    "Quote Previewing": true,
+    "Quote Highlighting": true,
+    "Resurrect Quotes": true,
+    "Remember Your Posts": true,
+    "Mark Quotes of You": true,
+    "Highlight Posts Quoting You": true,
+    "Highlight Own Posts": true,
+    "Mark OP Quotes": true,
+    "Mark Cross-thread Quotes": true,
+    "Quote Threading": true,
+    "Fit width": true,
+    "Fit height": false,
+    "Scroll into view": true,
+    "Expand spoilers": true,
+    "Expand videos": true,
+    "Expand from here": false,
+    "Expand thread only": false,
+    "Advance on contract": false,
+    "Hide Thumbnails": false,
+    "Fit Width": true,
+    "Fit Height": true,
+    "Stretch to Fit": false,
+    "Scroll to Post": true,
+    "Slide Delay": 6,
+    "Default Volume": 1,
+    "Current Board": false,
+    "Auto Update Thread Watcher": true,
+    "Auto Watch": true,
+    "Auto Watch Reply": true,
+    "Auto Prune": false,
+    "Show Page": false,
+    "Show Unread Count": true,
+    "Show Site Prefix": true,
+    "Require OP Quote Link": false,
+    "general": "/Jaaaaaaaaaay Louiiiiiiiiiiis Irwiiiiiiiiiiin/i\n/Why do itoddlers insist this is a beautiful OS?/i\n/>entire Windows 11 forums and subreddits are filled with bug reports and performance issues/i\n/to hell with furfags and their faggot fox/i",
+    "postID": "# Highlight dubs on [s4s]:\n#/(\\d)\\1$/;highlight;top:no;boards:s4s",
+    "name": "# Filter any namefags:\n#/^(?!Anonymous$)/",
+    "uniqueID": "# Filter a specific ID:\n#/Txhvk1Tl/",
+    "tripcode": "# Filter any tripfag\n#/^!/",
+    "capcode": "# Set a custom class for mods:\n#/Mod$/;highlight:mod;op:yes\n# Set a custom class for admins:\n#/Admin$/;highlight:admin;op:yes",
+    "pass": "# Filter anyone using since4pass:\n#/./",
+    "email": "",
+    "subject": "# Filter Generals on /v/:\n#/general/i;boards:v;op:only",
+    "comment": "# Filter Stallman copypasta on /g/:\n#/what you're refer+ing to as linux/i;boards:g\n# Filter posts with 20 or more quote links:\n#/(?:>>\\d(?:(?!>>\\d)[^])*){20}/\n# Filter posts like T H I S / H / I / S:\n#/^>?\\s?\\w\\s?(\\w)\\s?(\\w)\\s?(\\w).*$[\\s>]+\\1[\\s>]+\\2[\\s>]+\\3/im",
+    "flag": "",
+    "filename": "",
+    "dimensions": "# Highlight potential wallpapers:\n#/1920x1080/;op:yes;highlight;top:no;boards:w,wg",
+    "filesize": "",
+    "MD5": "",
+    "sauces": "# Known filename formats:\nhttps://www.pixiv.net/member_illust.php?mode=medium&illust_id=%$1;regexp:/^(\\d+)_p\\d+/\njavascript:void(open(\"https://www.deviantart.com/\"+%$1.replace(/_/g,\"-\")+\"/art/\"+parseInt(%$2,36)));regexp:/^\\w+_by_(\\w+)[_-]d([\\da-z]{6})\\b/\nhttps://imgur.com/%$1;regexp:/^(?![a-zA-Z][a-z]{6})(?![A-Z]{7})(?!\\d{7})([\\da-zA-Z]{7})(?: \\(\\d+\\))?\\.\\w+$/\nhttps://flickr.com/photo.gne?id=%$1;regexp:/^(\\d+)_[\\da-f]{10}(?:_\\w)*\\b/\nhttps://www.facebook.com/photo.php?fbid=%$1;regexp:/^\\d+_(\\d+)_\\d+_[no]\\b/\n\n# Reverse image search:\nhttps://www.google.com/searchbyimage?image_url=%IMG&safe=off\nhttps://yandex.com/images/search?rpt=imageview&url=%IMG\n#//tineye.com/search?url=%IMG\n#//www.bing.com/images/search?q=imgurl:%IMG&view=detailv2&iss=sbi#enterInsights\n\n# Specialized reverse image search:\n//iqdb.org/?url=%IMG\nhttps://trace.moe/?auto&url=%IMG;text:wait\n#//3d.iqdb.org/?url=%IMG\n//saucenao.com/search.php?url=%IMG\n\n# \"View Same\" in archives:\nhttp://eye.swfchan.com/search/?q=%name;types:swf\n#https://desuarchive.org/_/search/image/%sMD5/\n#https://archive.4plebs.org/_/search/image/%sMD5/\n#https://boards.fireden.net/_/search/image/%sMD5/\n#https://foolz.fireden.net/_/search/image/%sMD5/\n\n# Other tools:\n#http://exif.regex.info/exif.cgi?imgurl=%URL\n#//imgops.com/start?url=%URL;types:gif,jpg,png\n#//www.gif-explode.com/%URL;types:gif",
+    "werk": false,
+    "Custom CSS": true,
+    "Index Mode": "catalog",
+    "Previous Index Mode": "paged",
+    "Index Size": "small",
+    "Show Replies": true,
+    "Catalog Hover Expand": true,
+    "Catalog Hover Toggle": true,
+    "Pin Watched Threads": false,
+    "Anchor Hidden Threads": true,
+    "Refreshed Navigation": false,
+    "Fixed Header": true,
+    "Header auto-hide": false,
+    "Header auto-hide on scroll": false,
+    "Bottom Header": false,
+    "Centered links": true,
+    "Header catalog links": false,
+    "Bottom Board List": true,
+    "Shortcut Icons": true,
+    "Custom Board Navigation": true,
+    "archiveLists": "https://4chenz.github.io/archives.json/archives.json",
+    "lastarchivecheck": 1631923549146,
+    "archiveAutoUpdate": true,
+    "externalCatalogURLs": "//catalog.neet.tv/%board/;boards:4chan.org:3,a,adv,an,asp,biz,c,cgl,ck,cm,co,diy,f,fa,fit,g,gd,his,i,int,jp,k,lgbt,lit,m,mlp,mu,n,news,o,out,p,po,pol,s4s,sci,sp,tg,toy,trv,tv,v,vg,vip,vp,vr,w,wg,wsg,wsr,x",
+    "boardnav": "[external-text:\"⌘\",\"https://www.4chan.org/\"]\ncurrent-full-nt\n[external-text:\"📋\",\"https://www.4chan.org/rules/\"-nt]",
+    "QR.personas": "#options:\"sage\";boards:jp;always",
+    "sjisPreview": false,
+    "jsWhitelist": "http://s.4cdn.org\nhttps://s.4cdn.org\nhttp://www.google.com\nhttps://www.google.com\nhttps://www.gstatic.com\nhttp://cdn.mathjax.org\nhttps://cdn.mathjax.org\nhttps://cdnjs.cloudflare.com\nhttps://hcaptcha.com\nhttps://*.hcaptcha.com\n'self'\n'unsafe-inline'\n'unsafe-eval'",
+    "captchaLanguage": "",
+    "time": "%a %d/%m/%Y, %H:%M.",
+    "timeLocale": "vi-VN",
+    "backlink": ">>%id",
+    "pastedname": "fuckyou",
+    "fileInfo": "%l %d [%p%s, %r%g]",
+    "favicon": "4chanJS",
+    "usercss": "/* Board title rice */\ndiv.boardTitle {\n  font-family: sans-serif !important;\n  font-weight: bold !important;\n}\n\n/* Image hovering fancy animation */\nimg:hover {\n        opacity: 0.5 !important;\n        transition: 0.3s ease-in-out !important;\n    }\n\n/* Rounded corners */\ndiv.reply {\n border-radius:5px!important;\n}\ndiv.op .fileThumb img {\n border-radius:3px!important;\n}\ndiv.reply .fileThumb img {\n border-radius:3px!important;\n}\ndiv.boardBanner img {\n border-radius:5px!important;\n}\ndiv.middlead.center img {\n border-radius:5px!important;\n}\n.prettyprint {\n border-radius:3px!important;\n}\n#qr {\n border-radius:3px!important;\n}\n:root.tomorrow #qr .field {\n border-radius:2px!important;\n}\n\n/* Hiding things */\n/* Hide \"Original Form\" */\ndiv#togglePostFormLink.desktop {\n display:none !important;\n}\n/* Hide blotter */\ntable#blotter.desktop {\n display:none !important;\n}\n/* Hide legal stuff at the bottom  */\ndiv#absbot {\n display:none !important;\n}\n/* Hide 4chan ad border */\n#bannerCnt {\nborder: none !important;\n}\n\n/* Make \"Quick Reply\" button more flat and soulless (like me) */\n:root.tomorrow .qr-link {\n  background: rgb(39, 40, 44);\n  border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);",
+    "Toggle board list": "Ctrl+b",
+    "Toggle header": "Shift+h",
+    "Open empty QR": "q",
+    "Open QR": "Shift+q",
+    "Open settings": "Alt+o",
+    "Close": "Esc",
+    "Spoiler tags": "Ctrl+s",
+    "Code tags": "Alt+c",
+    "Eqn tags": "Alt+e",
+    "Math tags": "Alt+m",
+    "SJIS tags": "Alt+a",
+    "Toggle sage": "Alt+s",
+    "Toggle Cooldown": "Alt+Comma",
+    "Post from URL": "Alt+l",
+    "Add new post": "Alt+n",
+    "Submit QR": "Ctrl+Enter",
+    "Watch": "w",
+    "Update": "r",
+    "Update thread watcher": "Shift+r",
+    "Toggle thread watcher": "t",
+    "Toggle threading": "Shift+t",
+    "Mark thread read": "Ctrl+0",
+    "Expand image": "Shift+e",
+    "Expand images": "e",
+    "Open Gallery": "g",
+    "Next Gallery Image": "Right",
+    "Previous Gallery Image": "Left",
+    "Advance Gallery": "Enter",
+    "Pause": "p",
+    "Slideshow": "Ctrl+Right",
+    "Rotate image clockwise": "Shift+Right",
+    "Rotate image anticlockwise": "Shift+Left",
+    "Download Gallery Image": "Shift+j",
+    "fappeTyme": "f",
+    "werkTyme": "Shift+w",
+    "Front page": "1",
+    "Open front page": "Shift+1",
+    "Next page": "Ctrl+Right",
+    "Previous page": "Ctrl+Left",
+    "Paged mode": "Alt+1",
+    "Infinite scrolling mode": "Alt+2",
+    "All pages mode": "Alt+3",
+    "Open catalog": "Shift+c",
+    "Search form": "Ctrl+Alt+s",
+    "Cycle sort type": "Alt+x",
+    "Next thread": "Ctrl+Down",
+    "Previous thread": "Ctrl+Up",
+    "Expand thread": "Ctrl+e",
+    "Open thread": "o",
+    "Open thread tab": "Shift+o",
+    "Next reply": "j",
+    "Previous reply": "k",
+    "Deselect reply": "Shift+d",
+    "Hide": "x",
+    "Quick Filter MD5": "5",
+    "Previous Post Quoting You": "Alt+Up",
+    "Next Post Quoting You": "Alt+Down",
+    "Beep": false,
+    "Beep Quoting You": false,
+    "Auto Scroll": false,
+    "Bottom Scroll": false,
+    "Scroll BG": false,
+    "Auto Update": true,
+    "Optional Increase": false,
+    "Interval": 5,
+    "customCooldown": 0,
+    "customCooldownEnabled": true,
+    "Thread Quotes": false,
+    "Max Replies": 1000,
+    "Autohiding Scrollbar": true,
+    "embedding.position": "top: 50px; right: 0px;",
+    "thread-stats.position": "bottom: 0px; right: 0px;",
+    "updater.position": "bottom: 0px; left: 0px;",
+    "thread-watcher.position": "top: 25.5px; left: 0px;",
+    "qr.position": "top: 50px; right: 0px;",
+    "captchaServiceDomain": "",
+    "captchaServiceKey": {
+      "https://api.captcha.guru": "",
+      "https://azcaptcha.com": "",
+      "https://2captcha.com": ""
+    },
+    "fourchanImageHost": "i.4cdn.org",
+    "hiddenPSAList": {
+      "4chan.org": "1631616160"
+    },
+    "knownBanners": "0.jpg,1.jpg,2.jpg,4.jpg,6.jpg,7.jpg,8.jpg,9.jpg,10.jpg,11.jpg,12.jpg,13.jpg,14.jpg,16.jpg,17.jpg,18.jpg,19.jpg,20.jpg,21.jpg,22.jpg,24.jpg,25.jpg,26.jpg,28.jpg,29.jpg,33.jpg,38.jpg,39.jpg,43.jpg,44.jpg,45.jpg,46.jpg,47.jpg,52.jpg,54.jpg,57.jpg,59.jpg,60.jpg,61.jpg,64.jpg,66.jpg,67.jpg,69.jpg,71.jpg,72.jpg,76.jpg,77.jpg,81.jpg,82.jpg,83.jpg,84.jpg,88.jpg,90.jpg,91.jpg,96.jpg,98.jpg,99.jpg,100.jpg,104.jpg,106.jpg,116.jpg,119.jpg,137.jpg,140.jpg,148.jpg,149.jpg,150.jpg,154.jpg,156.jpg,157.jpg,158.jpg,159.jpg,161.jpg,162.jpg,164.jpg,165.jpg,166.jpg,167.jpg,168.jpg,169.jpg,170.jpg,171.jpg,172.jpg,173.jpg,174.jpg,175.jpg,176.jpg,178.jpg,179.jpg,180.jpg,181.jpg,182.jpg,183.jpg,186.jpg,189.jpg,190.jpg,192.jpg,193.jpg,194.jpg,197.jpg,198.jpg,200.jpg,201.jpg,202.jpg,203.jpg,205.jpg,206.jpg,207.jpg,208.jpg,210.jpg,213.jpg,214.jpg,215.jpg,216.jpg,218.jpg,219.jpg,220.jpg,221.jpg,222.jpg,223.jpg,224.jpg,227.jpg,0.png,1.png,2.png,3.png,5.png,6.png,9.png,10.png,11.png,12.png,14.png,16.png,19.png,20.png,21.png,22.png,23.png,24.png,26.png,27.png,28.png,29.png,30.png,31.png,32.png,33.png,34.png,37.png,39.png,40.png,41.png,42.png,43.png,44.png,45.png,48.png,49.png,50.png,51.png,52.png,53.png,57.png,58.png,59.png,64.png,66.png,67.png,68.png,69.png,70.png,71.png,72.png,76.png,78.png,79.png,81.png,82.png,85.png,86.png,87.png,89.png,95.png,98.png,100.png,101.png,102.png,105.png,106.png,107.png,109.png,110.png,111.png,112.png,113.png,114.png,115.png,116.png,118.png,119.png,120.png,121.png,122.png,123.png,126.png,128.png,130.png,134.png,136.png,138.png,139.png,140.png,142.png,145.png,146.png,149.png,150.png,151.png,152.png,153.png,154.png,155.png,156.png,157.png,158.png,159.png,160.png,163.png,164.png,165.png,166.png,167.png,168.png,169.png,170.png,171.png,172.png,173.png,174.png,178.png,179.png,180.png,181.png,182.png,184.png,186.png,188.png,190.png,192.png,193.png,194.png,195.png,196.png,197.png,198.png,200.png,202.png,203.png,205.png,206.png,207.png,209.png,212.png,213.png,214.png,216.png,217.png,218.png,219.png,220.png,221.png,222.png,223.png,224.png,225.png,226.png,229.png,231.png,232.png,233.png,234.png,235.png,237.png,238.png,239.png,240.png,241.png,242.png,244.png,245.png,246.png,247.png,248.png,249.png,250.png,253.png,254.png,255.png,256.png,257.png,258.png,259.png,260.png,262.png,268.png,0.gif,1.gif,2.gif,3.gif,4.gif,5.gif,6.gif,7.gif,8.gif,9.gif,10.gif,12.gif,13.gif,14.gif,15.gif,16.gif,18.gif,19.gif,20.gif,21.gif,22.gif,23.gif,24.gif,28.gif,29.gif,30.gif,33.gif,34.gif,35.gif,36.gif,37.gif,39.gif,40.gif,42.gif,44.gif,45.gif,46.gif,48.gif,50.gif,52.gif,54.gif,55.gif,57.gif,58.gif,59.gif,60.gif,61.gif,63.gif,64.gif,66.gif,67.gif,68.gif,69.gif,70.gif,72.gif,73.gif,75.gif,76.gif,77.gif,78.gif,80.gif,81.gif,82.gif,83.gif,86.gif,87.gif,88.gif,92.gif,93.gif,94.gif,95.gif,96.gif,97.gif,98.gif,99.gif,100.gif,101.gif,102.gif,103.gif,104.gif,105.gif,106.gif,108.gif,109.gif,110.gif,111.gif,112.gif,113.gif,115.gif,116.gif,117.gif,118.gif,119.gif,120.gif,122.gif,123.gif,124.gif,127.gif,129.gif,130.gif,131.gif,134.gif,135.gif,136.gif,138.gif,139.gif,141.gif,144.gif,146.gif,148.gif,149.gif,153.gif,154.gif,155.gif,157.gif,158.gif,159.gif,160.gif,161.gif,162.gif,164.gif,166.gif,167.gif,168.gif,169.gif,170.gif,171.gif,172.gif,173.gif,174.gif,175.gif,176.gif,177.gif,178.gif,181.gif,182.gif,183.gif,185.gif,186.gif,187.gif,188.gif,189.gif,190.gif,191.gif,192.gif,193.gif,195.gif,196.gif,197.gif,200.gif,201.gif,202.gif,203.gif,204.gif,205.gif,206.gif,207.gif,208.gif,209.gif,210.gif,211.gif,212.gif,213.gif,214.gif,215.gif,216.gif,217.gif,219.gif,220.gif,221.gif,222.gif,224.gif,225.gif,226.gif,227.gif,228.gif,230.gif,232.gif,233.gif,234.gif,235.gif,238.gif,240.gif,241.gif,243.gif,244.gif,245.gif,246.gif,247.gif,249.gif,250.gif,251.gif,253.gif",
+    "passMessageClosed": false,
+    "Prerequest Captcha": false,
+    "PSAseen": [],
+    "hiddenThreads": {
+      "4chan.org": {
+        "boards": {},
+        "lastChecked": 1632041897280
+      }
+    },
+    "hiddenPosts": {
+      "4chan.org": {
+        "boards": {},
+        "lastChecked": 1632006443119
+      },
+      "version": 11
+    },
+    "lastReadPosts": {
+      "4chan.org": {
+        "boards": {
+          "g": {
+            "76759434": 76759448,
+            "83264735": 83286991,
+            "83265361": 83301753,
+            "83266395": 83271289,
+            "83269364": 83270849,
+            "83273974": 83279351,
+            "83274000": 83278828,
+            "83274291": 83278889,
+            "83274828": 83276324,
+            "83277241": 83277512,
+            "83278710": 83278835,
+            "83278848": 83278848,
+            "83280217": 83296159,
+            "83280555": 83285872,
+            "83281285": 83285936,
+            "83283276": 83286285,
+            "83283471": 83285881,
+            "83284809": 83285417,
+            "83285038": 83287957,
+            "83285060": 83285832,
+            "83285105": 83285268,
+            "83285483": 83285515,
+            "83285757": 83285981,
+            "83288480": 83292402,
+            "83291803": 83294914,
+            "83294415": 83295368,
+            "83294494": 83295503,
+            "83294614": 83301735,
+            "83295082": 83296762,
+            "83295717": 83296662,
+            "83295786": 83296644,
+            "83296375": 83296693,
+            "83297928": 83301648,
+            "83306334": 83311621,
+            "83306849": 83306958,
+            "83307692": 83311439,
+            "83308359": 83311761,
+            "83320194": 83323419,
+            "83321505": 83321719,
+            "83321650": 83332470,
+            "83327797": 83332151,
+            "83331640": 83332311,
+            "83331655": 83332280,
+            "83332035": 83332422,
+            "83332200": 83332379,
+            "83333053": 83342462,
+            "83333433": 83342183,
+            "83338394": 83342142,
+            "83338606": 83341797,
+            "83338988": 83342425,
+            "83339759": 83340174,
+            "83340803": 83341703,
+            "83340949": 83341683,
+            "83341101": 83342601,
+            "83342265": 83342569,
+            "83353914": 83364594,
+            "83354947": 83355326,
+            "83358449": 83370919,
+            "83362271": 83387323,
+            "83366197": 83370955,
+            "83367288": 83367476,
+            "83368243": 83368357,
+            "83368973": 83369698,
+            "83369012": 83370789,
+            "83370586": 83370800,
+            "83378251": 83386348,
+            "83379006": 83380211,
+            "83381347": 83386613,
+            "83384235": 83386198,
+            "83384853": 83385040,
+            "83385097": 83385217,
+            "83385976": 83386614,
+            "83386075": 83386075,
+            "83398392": 83406623,
+            "83401901": 83410068,
+            "83403994": 83410842,
+            "83405285": 83409926,
+            "83408169": 83408514,
+            "83408960": 83409141,
+            "83409292": 83409832,
+            "83436846": 83443523,
+            "83438614": 83440705,
+            "83440381": 83440781,
+            "83440435": 83440572,
+            "83445903": 83446324
+          },
+          "vg": {
+            "349752194": 350671940,
+            "350373597": 352128845,
+            "350966583": 350994225,
+            "351283320": 351284248,
+            "351330602": 351466362,
+            "351381410": 351439832,
+            "351383549": 351406567,
+            "351617303": 351649106,
+            "351641169": 351649485,
+            "351723253": 351742351,
+            "351726684": 351727861,
+            "351734471": 351736649,
+            "351758273": 351793730,
+            "351776423": 351835482,
+            "351830930": 351836783,
+            "351969465": 351998789,
+            "351992259": 352086660,
+            "351995484": 352017257,
+            "352066661": 352082286
+          },
+          "gd": {
+            "408866": 418710,
+            "409852": 410037,
+            "412669": 412672,
+            "413113": 417932,
+            "413791": 419342,
+            "414340": 417619,
+            "415330": 417963,
+            "415353": 418643,
+            "415479": 418374,
+            "416168": 419045,
+            "416217": 418828,
+            "416549": 418922,
+            "416784": 417931,
+            "417013": 417434,
+            "417173": 417998,
+            "417281": 417521,
+            "417545": 417628,
+            "417612": 417612,
+            "417625": 417794,
+            "417740": 418567,
+            "417804": 417946,
+            "417831": 418145,
+            "417833": 417920,
+            "417865": 418690,
+            "417944": 418711,
+            "417976": 418025,
+            "418023": 418564,
+            "418082": 418960,
+            "418201": 418201,
+            "418228": 418274,
+            "418292": 419319,
+            "418368": 418369,
+            "418438": 418446,
+            "418466": 418479,
+            "418489": 418520,
+            "418515": 418613,
+            "418774": 418901,
+            "418796": 418907,
+            "418817": 418927,
+            "419290": 419302,
+            "419325": 419325,
+            "419326": 419335,
+            "419406": 419702
+          },
+          "wg": {
+            "7786113": 7809767,
+            "7797113": 7800546,
+            "7800464": 7814438,
+            "7815309": 7815666
+          },
+          "ic": {
+            "5531811": 5570323,
+            "5605132": 5614438,
+            "5610102": 5614413,
+            "5612894": 5614477,
+            "5614452": 5614487
+          },
+          "ck": {
+            "16649549": 16656186
+          },
+          "w": {
+            "2172921": 2172921,
+            "2202966": 2208551,
+            "2207337": 2208567
+          },
+          "t": {
+            "982914": 1068276,
+            "995548": 1060349,
+            "1004208": 1058093,
+            "1040798": 1070171,
+            "1050517": 1062590,
+            "1055140": 1060144,
+            "1057066": 1060449,
+            "1057226": 1064068,
+            "1059345": 1070905,
+            "1059789": 1070768,
+            "1059872": 1062098,
+            "1063161": 1064098,
+            "1064877": 1068465,
+            "1069303": 1070884,
+            "1070062": 1070384,
+            "1070638": 1070638
+          },
+          "cm": {
+            "3472657": 3487383,
+            "3515967": 3627712,
+            "3527482": 3631595,
+            "3528097": 3627563,
+            "3533447": 3628632,
+            "3536057": 3607873,
+            "3564815": 3628641,
+            "3565240": 3615728,
+            "3582582": 3585460,
+            "3610769": 3618456,
+            "3612020": 3621328,
+            "3618407": 3620901,
+            "3619089": 3628662,
+            "3620752": 3621496,
+            "3623716": 3623717,
+            "3626294": 3627565,
+            "3628906": 3633258
+          },
+          "v": {
+            "570590404": 570596020,
+            "570590974": 570595819,
+            "570808019": 570824543,
+            "570822132": 570824341,
+            "571302402": 571302901,
+            "571310029": 571310953,
+            "571313340": 571319692,
+            "571315217": 571319227,
+            "571315997": 571316478
+          },
+          "vmg": {
+            "488981": 505260,
+            "501856": 579776,
+            "553701": 575814,
+            "557456": 579514,
+            "557821": 576035,
+            "558231": 579062,
+            "572372": 579842,
+            "574509": 581502,
+            "576593": 576942,
+            "581141": 581467
+          },
+          "vip": {
+            "102828": 105131,
+            "106853": 108114,
+            "109215": 109479
+          },
+          "p": {
+            "3879844": 3933213,
+            "3889467": 3889581,
+            "3919195": 3931666,
+            "3921490": 3926480,
+            "3928356": 3928423,
+            "3930315": 3933059
+          },
+          "wsg": {
+            "957536": 2975263,
+            "4008185": 4101122,
+            "4046055": 4107219,
+            "4050737": 4106609,
+            "4050976": 4053455,
+            "4053271": 4054482,
+            "4055508": 4056293,
+            "4057120": 4073358,
+            "4063883": 4071593,
+            "4066150": 4073041,
+            "4066359": 4072883,
+            "4069030": 4075530,
+            "4072850": 4073614,
+            "4076261": 4076389,
+            "4078657": 4081119,
+            "4080782": 4099693,
+            "4082366": 4083265,
+            "4085294": 4107443,
+            "4087223": 4107500,
+            "4091846": 4104084,
+            "4095980": 4100558,
+            "4096191": 4102717,
+            "4097442": 4102595,
+            "4100949": 4102589,
+            "4100985": 4106594,
+            "4101118": 4102715,
+            "4102376": 4102629,
+            "4102943": 4105708,
+            "4105838": 4109754,
+            "4106393": 4106457,
+            "4106644": 4106729,
+            "4109142": 4110075,
+            "4109289": 4109790
+          },
+          "hc": {
+            "243077": 243077,
+            "1949071": 1960004,
+            "1968297": 1971003,
+            "1969302": 1999350,
+            "1983757": 1988788,
+            "1985216": 1986724,
+            "1990550": 1991093,
+            "1997312": 1999461
+          },
+          "c": {
+            "3947717": 3948569,
+            "3957781": 3971303,
+            "3963236": 3965941,
+            "3970822": 3971237
+          },
+          "y": {
+            "2891711": 2894263
+          },
+          "fit": {
+            "17018018": 50984775,
+            "63386775": 63396895,
+            "63391825": 63396050,
+            "63392327": 63396775,
+            "63394339": 63396785,
+            "63394365": 63396862,
+            "63396055": 63396819,
+            "63396153": 63396933,
+            "63451885": 63483740,
+            "63481576": 63483721,
+            "63508270": 63508270
+          },
+          "cgl": {
+            "10624507": 10625062,
+            "10641071": 10663869,
+            "10649361": 10663970,
+            "10652310": 10655697,
+            "10657168": 10658074,
+            "10661834": 10662230,
+            "10662546": 10663881,
+            "10662771": 10663891
+          },
+          "i": {
+            "567717": 652559,
+            "619059": 619059
+          },
+          "gif": {
+            "20714020": 20715654,
+            "20746967": 20784925,
+            "20757865": 20758251,
+            "20759012": 20763112,
+            "20759044": 20804371,
+            "20763653": 20804214,
+            "20764473": 20767626,
+            "20765875": 20803585,
+            "20771360": 20794652,
+            "20790626": 20803070,
+            "20791320": 20792947,
+            "20791670": 20797869,
+            "20793068": 20793158,
+            "20793672": 20804224,
+            "20793958": 20793988,
+            "20795285": 20795327,
+            "20797400": 20802413,
+            "20800572": 20803976,
+            "20803826": 20803848,
+            "20803861": 20803927,
+            "20806938": 20851095,
+            "20807201": 20818651,
+            "20807846": 20808435,
+            "20808206": 20808249,
+            "20809200": 20818729,
+            "20810105": 20850907,
+            "20811308": 20814704,
+            "20814938": 20816724,
+            "20816666": 20818637,
+            "20816770": 20868774,
+            "20817985": 20818556,
+            "20830972": 20850332,
+            "20833604": 20838413,
+            "20834214": 20851154,
+            "20836963": 20850563,
+            "20838740": 20841471,
+            "20840597": 20850522,
+            "20841249": 20844077,
+            "20845628": 20845856,
+            "20845925": 20850198,
+            "20846318": 20850870,
+            "20846840": 20850819,
+            "20850110": 20850217,
+            "20852383": 20856042,
+            "20853757": 20853806,
+            "20859756": 20868752,
+            "20865516": 20868810,
+            "20865554": 20865647,
+            "20866214": 20868696,
+            "20887632": 20887901
+          },
+          "d": {
+            "9845200": 9845384,
+            "9851810": 9869000,
+            "9860648": 9864656,
+            "9870854": 9887878,
+            "9880119": 9880697,
+            "9887025": 9887826,
+            "9889761": 9889791
+          },
+          "wsr": {
+            "1085211": 1086483,
+            "1085760": 1086584,
+            "1085815": 1086579,
+            "1085912": 1086965,
+            "1085965": 1086582,
+            "1086013": 1086050,
+            "1086027": 1086642,
+            "1086114": 1086119,
+            "1086120": 1086123,
+            "1086179": 1086186,
+            "1086187": 1086567,
+            "1086311": 1086323,
+            "1086527": 1086544,
+            "1086558": 1086583
+          },
+          "int": {
+            "151518855": 151519714,
+            "151787835": 151801885,
+            "151800837": 151810818,
+            "151801360": 151801890
+          },
+          "r": {
+            "2359499": 2359499,
+            "18088804": 18090778,
+            "18090329": 18092917,
+            "18092628": 18095156,
+            "18096218": 18096280,
+            "18096242": 18096242,
+            "18096301": 18096328,
+            "18096381": 18096381
+          },
+          "s4s": {
+            "9885321": 9888696
+          },
+          "h": {
+            "6272394": 6272555,
+            "6365413": 6366240
+          },
+          "xs": {
+            "63188": 63277,
+            "65657": 65660
+          },
+          "aco": {
+            "5765076": 5765108
+          },
+          "pol": {
+            "339406410": 339407090
+          },
+          "hr": {
+            "4092525": 4092564,
+            "4109385": 4109392,
+            "4122594": 4122598,
+            "4132283": 4136980,
+            "4163829": 4163830
+          }
+        },
+        "lastChecked": 1632041299457
+      },
+      "version": 16549
+    },
+    "yourPosts": {
+      "4chan.org": {
+        "boards": {
+          "g": {
+            "83264735": {
+              "83286467": true
+            },
+            "83265361": {
+              "83270609": true
+            },
+            "83269364": {
+              "83270849": true
+            },
+            "83273974": {
+              "83279016": true,
+              "83279028": true,
+              "83279221": true,
+              "83279241": true
+            },
+            "83274828": {
+              "83276324": true
+            },
+            "83283276": {
+              "83286285": true
+            },
+            "83285038": {
+              "83286375": true,
+              "83287112": true
+            },
+            "83285757": {
+              "83285908": true
+            },
+            "83294614": {
+              "83296778": true,
+              "83296794": true
+            },
+            "83295082": {
+              "83296762": true
+            },
+            "83295786": {
+              "83296623": true,
+              "83296644": true
+            },
+            "83296375": {
+              "83296693": true
+            },
+            "83308359": {
+              "83311761": true
+            },
+            "83321650": {
+              "83332470": true
+            },
+            "83327797": {
+              "83332409": true
+            },
+            "83332035": {
+              "83332422": true
+            },
+            "83333053": {
+              "83342462": true
+            },
+            "83353914": {
+              "83355085": true,
+              "83355096": true,
+              "83355152": true
+            },
+            "83362271": {
+              "83387323": true
+            },
+            "83366197": {
+              "83370955": true
+            },
+            "83369012": {
+              "83370789": true
+            },
+            "83401901": {
+              "83410022": true
+            },
+            "83403994": {
+              "83409822": true
+            },
+            "83405285": {
+              "83409926": true
+            },
+            "83409292": {
+              "83409783": true
+            },
+            "83436846": {
+              "83442581": true,
+              "83442625": true
+            }
+          },
+          "gd": {
+            "413791": {
+              "415533": true,
+              "417321": true,
+              "418448": true
+            },
+            "416168": {
+              "417479": true
+            },
+            "416217": {
+              "418004": true
+            },
+            "416549": {
+              "416772": true
+            },
+            "416784": {
+              "418003": true
+            },
+            "417740": {
+              "418567": true
+            },
+            "417976": {
+              "418005": true
+            },
+            "418023": {
+              "418564": true
+            },
+            "418082": {
+              "418568": true
+            },
+            "418438": {
+              "418446": true
+            },
+            "418489": {
+              "418566": true
+            },
+            "418515": {
+              "418613": true
+            },
+            "418796": {
+              "418907": true
+            },
+            "419326": {
+              "419326": true
+            },
+            "419406": {
+              "419681": true
+            }
+          },
+          "ck": {
+            "16649549": {
+              "16656186": true
+            }
+          },
+          "v": {
+            "570590404": {
+              "570596020": true
+            },
+            "570590974": {
+              "570595819": true
+            },
+            "570808019": {
+              "570824543": true
+            },
+            "570822132": {
+              "570824341": true
+            }
+          },
+          "c": {
+            "3957781": {
+              "3962652": true,
+              "3962653": true,
+              "3962654": true
+            },
+            "3963236": {
+              "3971474": true
+            }
+          },
+          "t": {
+            "982914": {
+              "1045493": true,
+              "1045508": true
+            }
+          },
+          "vg": {
+            "350373597": {
+              "351282425": true,
+              "351282580": true,
+              "351999193": true,
+              "352087149": true,
+              "352087404": true
+            },
+            "351330602": {
+              "351407193": true,
+              "351407319": true,
+              "351407567": true,
+              "351407818": true
+            },
+            "351381410": {
+              "351407969": true,
+              "351408512": true,
+              "351409184": true,
+              "351409320": true,
+              "351439647": true,
+              "351439832": true
+            },
+            "351617303": {
+              "351649106": true
+            },
+            "351641169": {
+              "351649485": true
+            },
+            "351723253": {
+              "351739714": true,
+              "351740072": true
+            },
+            "351758273": {
+              "351781526": true
+            },
+            "351830930": {
+              "351836104": true
+            },
+            "351969465": {
+              "351998263": true,
+              "351998789": true
+            },
+            "351992259": {
+              "352075330": true,
+              "352075671": true
+            },
+            "351995484": {
+              "352005348": true,
+              "352017068": true,
+              "352017257": true
+            }
+          },
+          "hc": {
+            "1969302": {
+              "1999350": true
+            },
+            "1997312": {
+              "1999353": true
+            }
+          },
+          "wsg": {
+            "4091846": {
+              "4102652": true,
+              "4102656": true,
+              "4102681": true,
+              "4102685": true
+            },
+            "4096191": {
+              "4102717": true
+            },
+            "4101118": {
+              "4102715": true
+            },
+            "4105838": {
+              "4110111": true
+            }
+          },
+          "cgl": {
+            "10649361": {
+              "10663970": true
+            },
+            "10662771": {
+              "10663967": true
+            }
+          },
+          "cm": {
+            "3533447": {
+              "3628632": true
+            },
+            "3564815": {
+              "3628641": true
+            },
+            "3619089": {
+              "3628662": true
+            },
+            "3628906": {
+              "3633210": true
+            }
+          },
+          "i": {
+            "567717": {
+              "652559": true
+            }
+          },
+          "p": {
+            "3879844": {
+              "3933211": true,
+              "3933212": true,
+              "3933213": true
+            }
+          },
+          "d": {
+            "9887025": {
+              "9887824": true
+            }
+          },
+          "wsr": {
+            "1085760": {
+              "1086584": true
+            },
+            "1085815": {
+              "1086579": true
+            },
+            "1085912": {
+              "1086574": true
+            },
+            "1085965": {
+              "1086580": true,
+              "1086582": true
+            },
+            "1086027": {
+              "1086586": true
+            },
+            "1086187": {
+              "1086567": true
+            },
+            "1086558": {
+              "1086564": true
+            }
+          },
+          "vmg": {
+            "557456": {
+              "576037": true,
+              "576040": true
+            },
+            "557821": {
+              "576035": true
+            },
+            "558231": {
+              "576032": true
+            },
+            "572372": {
+              "579842": true
+            },
+            "574509": {
+              "581501": true,
+              "581502": true
+            },
+            "581141": {
+              "581467": true
+            }
+          },
+          "gif": {
+            "20806938": {
+              "20851090": true,
+              "20851095": true
+            },
+            "20810105": {
+              "20851053": true
+            },
+            "20834214": {
+              "20851154": true
+            },
+            "20841249": {
+              "20850736": true
+            },
+            "20846318": {
+              "20850848": true
+            }
+          },
+          "int": {
+            "151518855": {
+              "151518938": true,
+              "151519020": true,
+              "151519253": true,
+              "151519294": true,
+              "151519334": true,
+              "151519385": true
+            },
+            "151800837": {
+              "151801861": true,
+              "151801953": true
+            },
+            "151801360": {
+              "151801794": true
+            }
+          },
+          "r": {
+            "18092628": {
+              "18092938": true,
+              "18092942": true,
+              "18092944": true
+            }
+          },
+          "xs": {
+            "63188": {
+              "66422": true
+            }
+          }
+        },
+        "lastChecked": 1632041299439
+      },
+      "version": 514
+    },
+    "watchedThreads": {
+      "4chan.org": {
+        "boards": {
+          "gd": {
+            "413791": {
+              "excerpt": "/gd/ - Redesign it",
+              "page": 2,
+              "lastPage": false,
+              "last": 419610,
+              "replies": 281,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 8,
+              "quotingYou": 0,
+              "modified": 1631846560
+            },
+            "416168": {
+              "excerpt": "/gd/ - Rank",
+              "page": 7,
+              "lastPage": false,
+              "modified": 1630938423,
+              "last": 419045,
+              "replies": 14,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 4,
+              "quotingYou": 0
+            },
+            "416217": {
+              "excerpt": "/gd/ - If I pirate a proprietary font and use it in some PDFs and prin...",
+              "page": 9,
+              "lastPage": false,
+              "modified": 1630453245,
+              "last": 418828,
+              "replies": 21,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 0,
+              "quotingYou": 0
+            },
+            "416784": {
+              "excerpt": "/gd/ - Logos Evolution",
+              "page": 10,
+              "lastPage": true,
+              "modified": 1630216656,
+              "last": 418707,
+              "replies": 26,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 11,
+              "quotingYou": 0
+            },
+            "418023": {
+              "excerpt": "/gd/ - Font Request Thread",
+              "page": 2,
+              "lastPage": false,
+              "modified": 1631938259,
+              "last": 419636,
+              "replies": 81,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 47,
+              "quotingYou": 0
+            },
+            "418082": {
+              "excerpt": "/gd/ - How can I improve the look of my website?",
+              "page": 8,
+              "lastPage": false,
+              "modified": 1630716912,
+              "last": 418960,
+              "replies": 12,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 0,
+              "quotingYou": 0
+            },
+            "418515": {
+              "excerpt": "/gd/ - Amateur mistakes",
+              "page": 10,
+              "lastPage": true,
+              "modified": 1630331795,
+              "last": 418743,
+              "replies": 8,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 4,
+              "quotingYou": 0
+            },
+            "418796": {
+              "excerpt": "/gd/ - Non paid alternatives?",
+              "page": 9,
+              "lastPage": false,
+              "modified": 1630585757,
+              "last": 418907,
+              "replies": 6,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 0,
+              "quotingYou": 0
+            },
+            "419326": {
+              "page": 4,
+              "lastPage": false,
+              "modified": 1631386798,
+              "last": 419335,
+              "replies": 1,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 0,
+              "quotingYou": 0,
+              "excerpt": "/gd/ - why even bother?"
+            },
+            "419406": {
+              "excerpt": "/gd/ - Billion dollar companies with an army of product designers empl...",
+              "last": 419702,
+              "replies": 5,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 0,
+              "quotingYou": 0,
+              "modified": 1632031999
+            }
+          },
+          "t": {
+            "982914": {
+              "excerpt": "/t/ - Graphic Resources",
+              "page": 4,
+              "lastPage": false,
+              "modified": 1631944927,
+              "last": 1072914,
+              "replies": 213,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 9,
+              "quotingYou": 0
+            }
+          },
+          "c": {
+            "3957781": {
+              "excerpt": "/c/ - Yotsuba Thread",
+              "page": 3,
+              "lastPage": false,
+              "replies": 108,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 21,
+              "quotingYou": 0,
+              "modified": 1631990715,
+              "last": 3979573
+            },
+            "3963236": {
+              "excerpt": "/c/ - /doki/",
+              "page": 7,
+              "lastPage": false,
+              "last": 3979419,
+              "replies": 79,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 48,
+              "quotingYou": 0,
+              "modified": 1631951659
+            }
+          },
+          "hc": {
+            "1997312": {
+              "excerpt": "/hc/ - Lovingly smooching the penis head.",
+              "page": 6,
+              "lastPage": false,
+              "modified": 1631941086,
+              "last": 2012352,
+              "replies": 115,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 99,
+              "quotingYou": 0
+            }
+          },
+          "cgl": {
+            "10649361": {
+              "excerpt": "/cgl/ - How to prevent buldges/boners in my costume?",
+              "page": 8,
+              "lastPage": false,
+              "last": 10670825,
+              "replies": 46,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 15,
+              "quotingYou": 0,
+              "modified": 1631342260
+            },
+            "10662771": {
+              "excerpt": "/cgl/ - Have you ever seen sexual assault at a con?",
+              "page": 2,
+              "lastPage": false,
+              "modified": 1632001147,
+              "last": 10673870,
+              "replies": 309,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 266,
+              "quotingYou": 0
+            }
+          },
+          "cm": {
+            "3533447": {
+              "excerpt": "/cm/ - boys with plushies",
+              "last": 3634953,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 8,
+              "quotingYou": 0,
+              "page": 6,
+              "lastPage": false,
+              "modified": 1631824417,
+              "replies": 152
+            },
+            "3564815": {
+              "excerpt": "/cm/ - Dudes in dresses / crossdressing",
+              "page": 6,
+              "lastPage": false,
+              "modified": 1631802756,
+              "last": 3634835,
+              "replies": 117,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 5,
+              "quotingYou": 0
+            },
+            "3628906": {
+              "excerpt": "/cm/ - Omori",
+              "page": 9,
+              "lastPage": false,
+              "modified": 1631388503,
+              "last": 3633258,
+              "replies": 189,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 0,
+              "quotingYou": 0
+            }
+          },
+          "i": {
+            "567717": {
+              "excerpt": "/i/ - Let's do even MORE bait-chan's porn cuz PORN!",
+              "page": 2,
+              "lastPage": false,
+              "modified": 1631965556,
+              "last": 654495,
+              "replies": 264,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 9,
+              "quotingYou": 0
+            }
+          },
+          "p": {
+            "3879844": {
+              "excerpt": "/p/ - Your favorite photo",
+              "page": 7,
+              "lastPage": false,
+              "replies": 308,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 6,
+              "quotingYou": 0,
+              "modified": 1631690577,
+              "last": 3939642
+            }
+          },
+          "vmg": {
+            "557821": {
+              "excerpt": "/vmg/ - Soul Knight",
+              "page": 8,
+              "lastPage": false,
+              "modified": 1631750029,
+              "last": 588202,
+              "replies": 13,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 5,
+              "quotingYou": 0
+            },
+            "574509": {
+              "excerpt": "/vmg/ - u got gaems on ur fone?",
+              "page": 9,
+              "lastPage": false,
+              "replies": 13,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 9,
+              "quotingYou": 0,
+              "modified": 1631594909,
+              "last": 586102
+            },
+            "581141": {
+              "excerpt": "/vmg/ - best racing mobile games?",
+              "page": 10,
+              "lastPage": true,
+              "modified": 1631380143,
+              "last": 583854,
+              "replies": 4,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 2,
+              "quotingYou": 0
+            }
+          },
+          "wsg": {
+            "4096191": {
+              "excerpt": "/wsg/ - among us",
+              "page": 9,
+              "lastPage": false,
+              "last": 4124799,
+              "replies": 68,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 32,
+              "quotingYou": 0,
+              "modified": 1632019738
+            },
+            "4105838": {
+              "excerpt": "/wsg/ - chadcore thread",
+              "page": 8,
+              "lastPage": false,
+              "modified": 1632036593,
+              "last": 4125031,
+              "replies": 134,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 123,
+              "quotingYou": 0
+            }
+          },
+          "xs": {
+            "63188": {
+              "excerpt": "/xs/ - Have you ever lost to a girl in a fight?",
+              "page": 5,
+              "lastPage": false,
+              "modified": 1631566157,
+              "last": 67143,
+              "replies": 76,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 70,
+              "quotingYou": 0
+            }
+          },
+          "vg": {
+            "350373597": {
+              "excerpt": "/vg/ - /tg/ - Terraria General",
+              "page": 8,
+              "lastPage": false,
+              "replies": 554,
+              "isDead": false,
+              "isArchived": false,
+              "unread": 14,
+              "quotingYou": 0,
+              "last": 352179872,
+              "modified": 1632042827
+            }
+          }
+        }
+      },
+      "lastChecked": 1632048257892,
+      "lastChecked2": 1632041299529,
+      "version": 9483
+    },
+    "watcherLastModified": {
+      "4chan.org": {
+        "boards": {
+          "gd": {
+            "https://a.4cdn.org/gd/threads.json": "Sun, 19 Sep 2021 09:38:27 GMT"
+          },
+          "t": {
+            "https://a.4cdn.org/t/threads.json": "Sun, 19 Sep 2021 10:03:02 GMT"
+          },
+          "c": {
+            "https://a.4cdn.org/c/threads.json": "Sun, 19 Sep 2021 10:39:54 GMT"
+          },
+          "hc": {
+            "https://a.4cdn.org/hc/threads.json": "Sun, 19 Sep 2021 10:38:00 GMT"
+          },
+          "cgl": {
+            "https://a.4cdn.org/cgl/threads.json": "Sun, 19 Sep 2021 10:21:19 GMT"
+          },
+          "cm": {
+            "https://a.4cdn.org/cm/threads.json": "Sun, 19 Sep 2021 10:42:29 GMT"
+          },
+          "i": {
+            "https://a.4cdn.org/i/threads.json": "Sun, 19 Sep 2021 10:04:39 GMT"
+          },
+          "p": {
+            "https://a.4cdn.org/p/threads.json": "Sun, 19 Sep 2021 10:30:29 GMT"
+          },
+          "vmg": {
+            "https://a.4cdn.org/vmg/threads.json": "Sun, 19 Sep 2021 10:42:11 GMT"
+          },
+          "wsg": {
+            "https://a.4cdn.org/wsg/threads.json": "Sun, 19 Sep 2021 10:39:42 GMT"
+          },
+          "xs": {
+            "https://a.4cdn.org/xs/threads.json": "Sun, 19 Sep 2021 10:31:24 GMT"
+          },
+          "vg": {
+            "https://a.4cdn.org/vg/threads.json": "Sun, 19 Sep 2021 10:44:10 GMT"
+          }
+        }
+      },
+      "version": 5858
+    },
+    "customTitles": {
+      "4chan.org": {
+        "boards": {
+          "qa": {
+            "boardTitle": {
+              "orig": "/qa/ - Question & Answer",
+              "title": "/qa/ - 2D/Random"
+            }
+          },
+          "g": {
+            "boardTitle": {
+              "title": "/g/ - Technology",
+              "orig": "/g/ - Technology"
+            }
+          }
+        }
+      },
+      "version": 2
+    },
+    "archives": [
+      {
+        "uid": 3,
+        "name": "4plebs",
+        "domain": "archive.4plebs.org",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "adv",
+          "f",
+          "hr",
+          "mlpol",
+          "mo",
+          "o",
+          "pol",
+          "s4s",
+          "sp",
+          "tg",
+          "trv",
+          "tv",
+          "x"
+        ],
+        "files": [
+          "adv",
+          "f",
+          "hr",
+          "mlpol",
+          "mo",
+          "o",
+          "pol",
+          "s4s",
+          "sp",
+          "tg",
+          "trv",
+          "tv",
+          "x"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 4,
+        "name": "Nyafuu Archive",
+        "domain": "archive.nyafuu.org",
+        "http": false,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "bant",
+          "c",
+          "con",
+          "e",
+          "n",
+          "news",
+          "out",
+          "p",
+          "toy",
+          "vip",
+          "vmg",
+          "vp",
+          "vst",
+          "vt",
+          "w",
+          "wg",
+          "wsr"
+        ],
+        "files": [
+          "bant",
+          "c",
+          "con",
+          "e",
+          "n",
+          "news",
+          "out",
+          "p",
+          "toy",
+          "vip",
+          "vmg",
+          "vp",
+          "vst",
+          "vt",
+          "w",
+          "wg",
+          "wsr"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 10,
+        "name": "warosu",
+        "domain": "warosu.org",
+        "http": false,
+        "https": true,
+        "software": "fuuka",
+        "boards": [
+          "3",
+          "biz",
+          "cgl",
+          "ck",
+          "diy",
+          "fa",
+          "g",
+          "ic",
+          "jp",
+          "lit",
+          "sci",
+          "tg",
+          "vr",
+          "vt"
+        ],
+        "files": [
+          "3",
+          "biz",
+          "cgl",
+          "ck",
+          "diy",
+          "fa",
+          "g",
+          "ic",
+          "jp",
+          "lit",
+          "sci",
+          "tg",
+          "vr",
+          "vt"
+        ],
+        "search": [
+          "biz",
+          "cgl",
+          "ck",
+          "diy",
+          "fa",
+          "g",
+          "ic",
+          "jp",
+          "lit",
+          "sci",
+          "tg",
+          "vr",
+          "vt"
+        ]
+      },
+      {
+        "uid": 23,
+        "name": "Desuarchive",
+        "domain": "desuarchive.org",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "a",
+          "aco",
+          "an",
+          "c",
+          "cgl",
+          "co",
+          "d",
+          "fit",
+          "g",
+          "gif",
+          "his",
+          "int",
+          "k",
+          "m",
+          "mlp",
+          "mu",
+          "q",
+          "qa",
+          "r9k",
+          "tg",
+          "trash",
+          "vr",
+          "wsg"
+        ],
+        "files": [
+          "a",
+          "aco",
+          "an",
+          "c",
+          "cgl",
+          "co",
+          "d",
+          "fit",
+          "g",
+          "gif",
+          "his",
+          "int",
+          "k",
+          "m",
+          "mlp",
+          "mu",
+          "q",
+          "qa",
+          "r9k",
+          "tg",
+          "trash",
+          "vr",
+          "wsg"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 24,
+        "name": "fireden.net",
+        "domain": "boards.fireden.net",
+        "http": false,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "cm",
+          "co",
+          "ic",
+          "sci",
+          "tg",
+          "vip",
+          "y"
+        ],
+        "files": [
+          "cm",
+          "co",
+          "ic",
+          "sci",
+          "tg",
+          "vip",
+          "y"
+        ],
+        "search": [
+          "cm",
+          "co",
+          "ic",
+          "sci",
+          "tg",
+          "y"
+        ]
+      },
+      {
+        "uid": 25,
+        "name": "arch.b4k.co",
+        "domain": "arch.b4k.co",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "g",
+          "mlp",
+          "qb",
+          "v",
+          "vg",
+          "vm",
+          "vmg",
+          "vp",
+          "vrpg",
+          "vst"
+        ],
+        "files": [
+          "qb",
+          "v",
+          "vg",
+          "vm",
+          "vmg",
+          "vrpg",
+          "vst"
+        ],
+        "search": [
+          "qb",
+          "v",
+          "vg",
+          "vm",
+          "vmg",
+          "vrpg",
+          "vst"
+        ]
+      },
+      {
+        "uid": 28,
+        "name": "bstats",
+        "domain": "archive.b-stats.org",
+        "http": false,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "f",
+          "cm",
+          "hm",
+          "lgbt",
+          "news",
+          "qst",
+          "trash",
+          "y"
+        ],
+        "files": []
+      },
+      {
+        "uid": 29,
+        "name": "Archived.Moe",
+        "domain": "archived.moe",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "3",
+          "a",
+          "aco",
+          "adv",
+          "an",
+          "asp",
+          "b",
+          "bant",
+          "biz",
+          "c",
+          "can",
+          "cgl",
+          "ck",
+          "cm",
+          "co",
+          "cock",
+          "con",
+          "d",
+          "diy",
+          "e",
+          "f",
+          "fa",
+          "fap",
+          "fit",
+          "fitlit",
+          "g",
+          "gd",
+          "gif",
+          "h",
+          "hc",
+          "his",
+          "hm",
+          "hr",
+          "i",
+          "ic",
+          "int",
+          "jp",
+          "k",
+          "lgbt",
+          "lit",
+          "m",
+          "mlp",
+          "mlpol",
+          "mo",
+          "mtv",
+          "mu",
+          "n",
+          "news",
+          "o",
+          "out",
+          "outsoc",
+          "p",
+          "po",
+          "pol",
+          "pw",
+          "q",
+          "qa",
+          "qb",
+          "qst",
+          "r",
+          "r9k",
+          "s",
+          "s4s",
+          "sci",
+          "soc",
+          "sp",
+          "spa",
+          "t",
+          "tg",
+          "toy",
+          "trash",
+          "trv",
+          "tv",
+          "u",
+          "v",
+          "vg",
+          "vint",
+          "vip",
+          "vmg",
+          "vp",
+          "vr",
+          "vrpg",
+          "vt",
+          "w",
+          "wg",
+          "wsg",
+          "wsr",
+          "x",
+          "xs",
+          "y"
+        ],
+        "files": [
+          "can",
+          "cock",
+          "con",
+          "fap",
+          "fitlit",
+          "gd",
+          "mlpol",
+          "mo",
+          "mtv",
+          "outsoc",
+          "po",
+          "q",
+          "qb",
+          "qst",
+          "spa",
+          "vint",
+          "vip"
+        ],
+        "search": [
+          "aco",
+          "adv",
+          "an",
+          "asp",
+          "b",
+          "bant",
+          "c",
+          "can",
+          "cgl",
+          "ck",
+          "cm",
+          "cock",
+          "con",
+          "d",
+          "diy",
+          "e",
+          "f",
+          "fap",
+          "fitlit",
+          "gd",
+          "gif",
+          "h",
+          "hc",
+          "his",
+          "hm",
+          "hr",
+          "i",
+          "ic",
+          "lgbt",
+          "lit",
+          "mlpol",
+          "mo",
+          "mtv",
+          "n",
+          "news",
+          "o",
+          "out",
+          "outsoc",
+          "p",
+          "po",
+          "q",
+          "qa",
+          "qst",
+          "r",
+          "s",
+          "soc",
+          "spa",
+          "trv",
+          "u",
+          "vint",
+          "vip",
+          "vrpg",
+          "w",
+          "wg",
+          "wsg",
+          "wsr",
+          "x",
+          "y"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 30,
+        "name": "TheBArchive.com",
+        "domain": "thebarchive.com",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "b",
+          "bant"
+        ],
+        "files": [
+          "b",
+          "bant"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 31,
+        "name": "Archive Of Sins",
+        "domain": "archiveofsins.com",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "h",
+          "hc",
+          "hm",
+          "i",
+          "lgbt",
+          "r",
+          "s",
+          "soc",
+          "t",
+          "u"
+        ],
+        "files": [
+          "h",
+          "hc",
+          "hm",
+          "i",
+          "lgbt",
+          "r",
+          "s",
+          "soc",
+          "t",
+          "u"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 34,
+        "name": "TokyoChronos",
+        "domain": "www.tokyochronos.net",
+        "http": false,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "a",
+          "g",
+          "jp",
+          "r9k",
+          "vt"
+        ],
+        "files": [
+          "a",
+          "g",
+          "jp",
+          "r9k",
+          "vt"
+        ],
+        "reports": true
+      },
+      {
+        "uid": 35,
+        "name": "Wakarimasen Archive",
+        "domain": "archive.wakarimasen.moe",
+        "http": true,
+        "https": true,
+        "software": "foolfuuka",
+        "boards": [
+          "3",
+          "a",
+          "aco",
+          "adv",
+          "an",
+          "asp",
+          "b",
+          "bant",
+          "biz",
+          "c",
+          "cgl",
+          "ck",
+          "cm",
+          "co",
+          "d",
+          "diy",
+          "e",
+          "f",
+          "fa",
+          "fit",
+          "g",
+          "gd",
+          "gif",
+          "h",
+          "hc",
+          "his",
+          "hm",
+          "hr",
+          "i",
+          "ic",
+          "int",
+          "jp",
+          "k",
+          "lgbt",
+          "lit",
+          "m",
+          "mlp",
+          "mu",
+          "n",
+          "news",
+          "o",
+          "out",
+          "p",
+          "po",
+          "pol",
+          "pw",
+          "qa",
+          "qst",
+          "r",
+          "r9k",
+          "s",
+          "s4s",
+          "sci",
+          "soc",
+          "sp",
+          "t",
+          "tg",
+          "toy",
+          "trash",
+          "trv",
+          "tv",
+          "u",
+          "v",
+          "vg",
+          "vip",
+          "vm",
+          "vmg",
+          "vp",
+          "vr",
+          "vrpg",
+          "vst",
+          "vt",
+          "w",
+          "wg",
+          "wsg",
+          "wsr",
+          "x",
+          "xs",
+          "y"
+        ],
+        "files": [
+          "3",
+          "a",
+          "aco",
+          "adv",
+          "an",
+          "asp",
+          "b",
+          "bant",
+          "biz",
+          "c",
+          "cgl",
+          "ck",
+          "cm",
+          "co",
+          "d",
+          "diy",
+          "e",
+          "f",
+          "fa",
+          "fit",
+          "g",
+          "gd",
+          "gif",
+          "h",
+          "hc",
+          "his",
+          "hm",
+          "hr",
+          "i",
+          "ic",
+          "int",
+          "jp",
+          "k",
+          "lgbt",
+          "lit",
+          "m",
+          "mlp",
+          "mu",
+          "n",
+          "news",
+          "o",
+          "out",
+          "p",
+          "po",
+          "pol",
+          "pw",
+          "qa",
+          "qst",
+          "r",
+          "r9k",
+          "s",
+          "s4s",
+          "sci",
+          "soc",
+          "sp",
+          "t",
+          "tg",
+          "toy",
+          "trash",
+          "trv",
+          "tv",
+          "u",
+          "v",
+          "vg",
+          "vip",
+          "vm",
+          "vmg",
+          "vp",
+          "vr",
+          "vrpg",
+          "vst",
+          "vt",
+          "w",
+          "wg",
+          "wsg",
+          "wsr",
+          "x",
+          "xs",
+          "y"
+        ],
+        "reports": true
+      }
+    ],
+    "selectedArchives": {},
+    "cooldowns": {
+      "wg": {
+        "1628433178092": {
+          "threadID": 7805285,
+          "postID": 7810328
+        }
+      },
+      "ic": {
+        "1628435121425": {
+          "threadID": 5542587,
+          "postID": 5554626
+        }
+      },
+      "r9k": {
+        "1628523202882": {
+          "threadID": 64897997,
+          "postID": 64901794
+        }
+      },
+      "x": {
+        "1628527022850": {
+          "threadID": 29453287,
+          "postID": 29453475
+        }
+      },
+      "mu": {
+        "1628642855740": {
+          "threadID": 105240526,
+          "postID": 105242074
+        }
+      },
+      "trash": {
+        "1628747258308": {
+          "threadID": 40838050,
+          "postID": 40845162
+        }
+      },
+      "an": {
+        "1629001610836": {
+          "threadID": 3892630,
+          "postID": 3896915
+        }
+      },
+      "adv": {
+        "1629045418759": {
+          "threadID": 24745083,
+          "postID": 24746634
+        }
+      },
+      "bant": {
+        "1629431565020": {
+          "threadID": 13311905,
+          "postID": 13312447
+        }
+      },
+      "hc": {
+        "1629675914595": {
+          "threadID": 1997312,
+          "postID": 1999353
+        }
+      },
+      "fa": {
+        "1629822045995": {
+          "threadID": 16439940,
+          "postID": 16444451
+        }
+      },
+      "cgl": {
+        "1629971473267": {
+          "threadID": 10649361,
+          "postID": 10663970
+        }
+      },
+      "i": {
+        "1630295490449": {
+          "threadID": 567717,
+          "postID": 652559
+        }
+      },
+      "p": {
+        "1630297820101": {
+          "threadID": 3879844,
+          "postID": 3933213
+        }
+      },
+      "c": {
+        "1630524166324": {
+          "threadID": 3963236,
+          "postID": 3971474
+        }
+      },
+      "d": {
+        "1630582886539": {
+          "threadID": 9887025,
+          "postID": 9887824
+        }
+      },
+      "fit": {
+        "1630789095887": {
+          "threadID": 63348848,
+          "postID": 63352812
+        }
+      },
+      "ck": {
+        "1630921465994": {
+          "threadID": 16649549,
+          "postID": 16656186
+        }
+      },
+      "vmg": {
+        "1631150727919": {
+          "threadID": 574509,
+          "postID": 581502
+        }
+      },
+      "wsr": {
+        "1631152364780": {
+          "threadID": 1086027,
+          "postID": 1086586
+        }
+      },
+      "r": {
+        "1631153285140": {
+          "threadID": 18092628,
+          "postID": 18092942
+        },
+        "1631153316881": {
+          "threadID": 18092628,
+          "postID": 18092944
+        }
+      },
+      "wsg": {
+        "1631154070008": {
+          "threadID": 4105838,
+          "postID": 4110111
+        }
+      },
+      "xs": {
+        "1631179929018": {
+          "threadID": 63188,
+          "postID": 66422
+        }
+      },
+      "cm": {
+        "1631377448044": {
+          "threadID": 3628906,
+          "postID": 3633210
+        }
+      },
+      "pol": {
+        "1631435028076": {
+          "threadID": 338767727,
+          "postID": 338769482
+        }
+      },
+      "b": {
+        "1631545953827": {
+          "threadID": 862997653,
+          "postID": 863001810
+        }
+      },
+      "gif": {
+        "1631553565858": {
+          "threadID": 20834214,
+          "postID": 20851154
+        }
+      },
+      "int": {
+        "1631619885955": {
+          "threadID": 151800837,
+          "postID": 151801953
+        }
+      },
+      "vg": {
+        "1631983610486": {
+          "threadID": 350373597,
+          "postID": 352087404
+        }
+      },
+      "v": {
+        "1631983745103": {
+          "threadID": 571316667,
+          "postID": 571318568
+        }
+      },
+      "g": {
+        "1632013402777": {
+          "threadID": 83436846,
+          "postID": 83442625
+        }
+      },
+      "gd": {
+        "1632014441942": {
+          "threadID": 419406,
+          "postID": 419681
+        }
+      }
+    },
+    "Index Sort": {
+      "vg": "bump"
+    },
+    "Last Long Reply Thresholds 0": {},
+    "Last Long Reply Thresholds 1": {},
+    "siteProperties": {
+      "4chan.org": {
+        "software": "yotsuba"
+      },
+      "4channel.org": {
+        "canonical": "4chan.org"
+      },
+      "4cdn.org": {
+        "canonical": "4chan.org"
+      },
+      "notso.smuglo.li": {
+        "canonical": "smuglo.li"
+      },
+      "smugloli.net": {
+        "canonical": "smuglo.li"
+      },
+      "smug.nepu.moe": {
+        "canonical": "smuglo.li"
+      }
+    },
+    "Except Archives from Encryption": false,
+    "JSON Navigation": true,
+    "Oekaki Links": true,
+    "Show Name and Subject": false,
+    "QR Shortcut": true,
+    "Bottom QR Link": true,
+    "Toggleable Thread Watcher": true,
+    "siteSoftware": "",
+    "Use Faster Image Host": "true"
+  }
+}
