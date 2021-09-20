@@ -80,9 +80,9 @@ iframe {
   border-radius: 10px !important;
 }
 /* "Reply to thread" button  */
-.qr-link {
+html.fourchan-x.seaweedchan.ua-gecko.js-enabled.fixed.centered-links.shortcut-icons.hide-bottom-board-list.resurrect-quotes.hide-backlinks.reply-hide.highlight-own.highlight-you.gal-fit-width.gal-fit-height.show-sauce.fit-width.fixed-watcher.sw-yotsuba.thread-view.autohiding-scrollbar.tomorrow.top-header body.is_thread.board_vg form h1.qr-link-container a.qr-link {
   border-radius: 5px !important;
-  background: rgb(49, 50, 55);
+  background: rgb(49, 50, 55) !important;
   border-color: transparent !important;
 }
 /* Reply box */
