@@ -50,14 +50,14 @@ button#t-help:focus {
 /*  - Make UI more flat and soulless (like me) -  */
 /* Thread replies */
 div.reply {
-  border-radius: 5px !important;
+  border-radius: 7.5px !important;
 }
 /* Image thumbnails */
 div.op .fileThumb img {
-  border-radius: 3px !important;
+  border-radius: 5px !important;
 }
 div.reply .fileThumb img {
-  border-radius: 3px !important;
+  border-radius: 5px !important;
 }
 /* 4chan ads */
 div.boardBanner img {
