@@ -35,11 +35,13 @@ img:hover {
 }
 /* Reply box buttons */
 button#t-load,
-div#file-n-submit input {
+div#file-n-submit input,
+div.oekaki input#qr-draw-button {
   transition: opacity 0.2s ease-in-out !important;
 }
 button#t-load:hover,
-div#file-n-submit input:hover {
+div#file-n-submit input:hover,
+div.oekaki input#qr-draw-button:hover {
   opacity: 0.75 !important;
 }
 #qr input.field,
@@ -157,7 +159,7 @@ div#t-fg {
   border-radius: 5px !important;
   background-color: #313237;
 }
-/* Still reply box but it's the "Files"/"Submit" button */
+/* Still reply box but it's the "Files"/"Submit"/"Draw" button */
 div#file-n-submit input {
   filter: none !important;
   border-color: rgb(40, 41, 42) !important;
@@ -165,6 +167,9 @@ div#file-n-submit input {
 }
 #file-n-submit input, #qr-draw-button {
   background: rgb(192, 192, 192);
+}
+div.oekaki input#qr-draw-button {
+  border-radius: 5px !important;
 }
 
 
