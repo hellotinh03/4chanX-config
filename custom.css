@@ -52,7 +52,7 @@ button#t-help:focus {
 }
 .catalog-small .catalog-thread:hover,
 .catalog-small .catalog-thread:focus {
-  opacity: 0.75 !important;
+  opacity: 0.85 !important;
 }
 
 
