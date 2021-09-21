@@ -62,18 +62,18 @@ div.reply {
   border-radius: 7.5px !important;
 }
 /* Image thumbnails */
-div.op .fileThumb img {
-  border-radius: 5px !important;
-}
+.catalog-thumb,
+div.op .fileThumb img,
 div.reply .fileThumb img {
   border-radius: 5px !important;
 }
 /* 4chan ads */
-div.boardBanner img {
-  border-radius: 5px !important;
-}
+div.boardBanner img,
 div.middlead.center img {
   border-radius: 5px !important;
+}
+#bannerCnt {
+  border: none !important;
 }
 /* no idea what this is i forgor 💀 */
 .prettyprint {
@@ -130,9 +130,7 @@ button#t-help {
   border-radius: 5px !important;
 }
 /* Still reply box but it's the CAPTCHA box */
-div#t-bg {
-  border-radius: 5px !important;
-}
+div#t-bg,
 div#t-fg {
   border-radius: 5px !important;
 }
@@ -150,19 +148,15 @@ div#file-n-submit input {
 /*  - Hiding things -  */
 /* Hide "Original Form" */
 div#togglePostFormLink.desktop {
- display:none !important;
+  display: none !important;
 }
 /* Hide blotter */
 table#blotter.desktop {
- display:none !important;
+  display: none !important;
 }
 /* Hide legal stuff at the bottom  */
 div#absbot {
- display:none !important;
-}
-/* Hide 4chan ad border */
-#bannerCnt {
-border: none !important;
+  display: none !important;
 }
 
 
