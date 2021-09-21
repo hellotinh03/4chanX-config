@@ -115,6 +115,7 @@ form h1.qr-link-container a.qr-link {
   border-radius: 5px !important;
   background: rgb(49, 50, 55) !important;
   border-color: transparent !important;
+  transition: all 0.2s ease-in-out !important;
 }
 /* Board search field */
 input#index-search.field {
