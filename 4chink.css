@@ -74,15 +74,27 @@ input#t-resp:focus {
 .postContainer.catalog-container:focus {
   background-color: #26272b !important;
 }
-/* Board search field */
-input#index-search.field {
+/* Board search field and sorting */
+input#index-search.field,
+select#styleSelector {
   transition: all 0.2s ease-in-out !important;
 }
-input#index-search.field:hover {
+input#index-search.field:hover,
+span#index-options select:hover,
+select#styleSelector:hover {
   filter: brightness(1.125) !important;
 }
 input#index-search.field:focus {
   color: #fff !important;
+}
+/* "Delete"/"Report" button */
+span.deleteform input:hover,
+span.deleteform input#bottomReportBtn:hover {
+  filter: brightness(0.75) !important;
+}
+span.deleteform input:focus,
+span.deleteform input#bottomReportBtn:focus {
+  filter: brightness(0.5) !important;
 }
 
 
@@ -134,11 +146,30 @@ input#index-search.field {
   background-color: #3d3f45 !important;
   color: #c5c8c6;
 }
+/* Board thread sorting */
+span#index-options select {
+  border: none !important;
+  background-color: #303136 !important;
+  border-radius: 5px !important;
+  margin-left: 5px !important;
+  transition: filter 0.2s ease-in-out !important;
+}
 /* Catalog threads */
 .postContainer.catalog-container {
   top: 0;
   background-color: #303136;
   border-radius: 10px;
+}
+/* "Delete"/"Report" button */
+span.deleteform input,
+span.deleteform input#bottomReportBtn {
+  border-radius: 5px !important;
+  border: none;
+  filter: brightness(1) !important;
+  transition: filter 0.2s ease-in-out !important;
+}
+span.deleteform input#bottomReportBtn {
+   margin-left: 4px !important;
 }
 /* Reply box */
 #qr {
