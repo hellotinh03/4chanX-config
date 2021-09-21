@@ -120,6 +120,8 @@ form h1.qr-link-container a.qr-link {
 /* Board search field */
 input#index-search.field {
   border-radius: 5px !important;
+  border-color: transparent !important;
+  background-color: #3d3f45 !important;
 }
 /* Catalog threads */
 .postContainer.catalog-container {
