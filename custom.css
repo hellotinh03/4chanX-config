@@ -56,7 +56,7 @@ input#t-resp {
   transition: all 0.2s ease-in-out !important;
 }
 input#t-resp:hover {
-  filter: brightness(1.3) !important;
+  filter: brightness(1.5) !important;
 }
 input#t-resp:focus {
   filter: brightness(1) !important;
