@@ -30,7 +30,8 @@ div.boardTitle {
 img {
   transition: opacity 0.2s ease-in-out !important;
 }
-img:hover {
+img:hover,
+a#selected.qr-preview:hover {
   opacity: 0.75 !important;
 }
 /* Reply box buttons */
