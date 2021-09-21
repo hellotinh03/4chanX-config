@@ -74,9 +74,9 @@ input#t-resp:focus {
 .postContainer.catalog-container:focus {
   background-color: #26272b !important;
 }
-/* Board search field and sorting */
+/* Board search field and sorting (and theme choosing too, mostly for consistency since no one use anything other than Tomorrow) */
 input#index-search.field,
-select#styleSelector {
+select#styleSelector, {
   transition: all 0.2s ease-in-out !important;
 }
 input#index-search.field:hover,
@@ -90,15 +90,22 @@ input#index-search.field:focus {
 /* "Delete"/"Report" button */
 span.deleteform input:hover,
 span.deleteform input#bottomReportBtn:hover {
-  filter: brightness(0.75) !important;
+  filter: brightness(0.9) !important;
 }
 span.deleteform input:focus,
 span.deleteform input#bottomReportBtn:focus {
-  filter: brightness(0.5) !important;
+  filter: brightness(0.8) !important;
 }
 
 
 /*  - Make UI more flat and soulless (like me) and somewhat consistent -  */
+/* Header bar */
+#header-bar {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.20) !important;
+  border: none !important;
+  background-color: rgb(40, 42, 46) !important;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+}
 /* Thread replies */
 div.reply {
   border-radius: 7.5px !important;
@@ -146,8 +153,9 @@ input#index-search.field {
   background-color: #3d3f45 !important;
   color: #c5c8c6;
 }
-/* Board thread sorting */
-span#index-options select {
+/* Board thread sorting (and theme choosing too, mostly for consistency since no one use anything other than Tomorrow) */
+span#index-options select,
+select#styleSelector {
   border: none !important;
   background-color: #303136 !important;
   border-radius: 5px !important;
