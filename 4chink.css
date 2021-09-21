@@ -84,7 +84,8 @@ div.reply {
 /* Image thumbnails */
 .catalog-thumb,
 div.op .fileThumb img,
-div.reply .fileThumb img {
+div.reply .fileThumb img,
+a#selected.qr-preview {
   border-radius: 5px !important;
 }
 /* 4chan ads */
