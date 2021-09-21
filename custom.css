@@ -25,7 +25,7 @@ div.boardTitle {
 }
 
 
-/*  - Hovering fancy animation -  */
+/*  - Hovering/Clicking fancy animation -  */
 /* Image */
 img {
   transition: opacity 0.2s ease-in-out !important;
@@ -35,22 +35,31 @@ img:hover {
 }
 /* Reply box buttons */
 button#t-load,
-button#t-help {
+div#file-n-submit input {
   transition: opacity 0.2s ease-in-out !important;
 }
 button#t-load:hover,
-button#t-help:hover, {
+div#file-n-submit input:hover {
   opacity: 0.75 !important;
 }
 #qr input.field,
-button#t-help {
+#qr select {
   opacity: 0.1 !important;
   transition: opacity 0.2s ease-in-out !important;
 }
-
 #qr input.field:hover,
-button#t-help:hover {
+#qr select:hover {
   opacity: 1 !important;
+}
+input#t-resp {
+  filter: brightness(1.25) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+input#t-resp:hover {
+  filter: brightness(1.3) !important;
+}
+input#t-resp:focus {
+  filter: brightness(1) !important;
 }
 /* Catalog threads */
 .postContainer.catalog-container {
@@ -116,7 +125,7 @@ input#index-search.field {
   border-radius: 7.5px !important;
 }
 /* Still reply box but it's the text field */
-:root.tomorrow #qr .field {
+#qr .field {
   border-radius: 5px !important;
 }
 /* Still reply box but it's the CAPTCHA typing field */
@@ -125,12 +134,14 @@ input#t-resp {
   background: rgb(49, 50, 55) !important;
   border-color: transparent !important;
   padding: 0 5px !important;
-  width: 203px !important;
+  width: 202px !important;
+  margin: 2px 0 !important;
 }
 /* Still reply box but it's the "Get CAPTCHA" button */
 #qr button#t-load {
   border-color: transparent !important;
   border-radius: 5px !important;
+  margin: 0px 6px 0px 1px !important;
 }
 /* Still reply box but it's the CAPTCHA box */
 div#t-bg,
@@ -144,9 +155,14 @@ div#t-fg {
   border-radius: 5px !important;
   background-color: #313237;
 }
+/* Still reply box but it's the "Files"/"Submit" button */
 div#file-n-submit input {
-  border-color: grey !important;
+  filter: none !important;
+  border-color: rgb(40, 41, 42) !important;;
   border-radius: 5px !important;
+}
+#file-n-submit input, #qr-draw-button {
+  background: rgb(192, 192, 192);
 }
 
 
