@@ -183,5 +183,9 @@ div#absbot {
 button#t-help {
   display: none !important;
 }
+/* Reply box but it's the "Files" button (since you can just click on the filename field duh) */
+div#file-n-submit input#qr-file-button {
+  display: none !important;
+}
 
 
