@@ -30,8 +30,7 @@ div.boardTitle {
 img {
   transition: opacity 0.2s ease-in-out !important;
 }
-img:hover,
-img:focus {
+img:hover {
   opacity: 0.75 !important;
 }
 /* Reply box buttons */
@@ -40,10 +39,18 @@ button#t-help {
   transition: opacity 0.2s ease-in-out !important;
 }
 button#t-load:hover,
-button#t-load:focus,
-button#t-help:hover,
-button#t-help:focus {
+button#t-help:hover, {
   opacity: 0.75 !important;
+}
+#qr input.field,
+button#t-help {
+  opacity: 0.1 !important;
+  transition: opacity 0.2s ease-in-out !important;
+}
+
+#qr input.field:hover,
+button#t-help:hover {
+  opacity: 1 !important;
 }
 /* Catalog threads */
 .postContainer.catalog-container {
@@ -55,7 +62,7 @@ button#t-help:focus {
 }
 
 
-/*  - Make UI more flat and soulless (like me) -  */
+/*  - Make UI more flat and soulless (like me) and somewhat consistent -  */
 /* Thread replies */
 div.reply {
   border-radius: 7.5px !important;
@@ -115,16 +122,13 @@ input#index-search.field {
 /* Still reply box but it's the CAPTCHA typing field */
 input#t-resp {
   border-radius: 5px !important;
-  background: rgb(49, 50, 55);
+  background: rgb(49, 50, 55) !important;
   border-color: transparent !important;
+  padding: 0 5px !important;
+  width: 203px !important;
 }
 /* Still reply box but it's the "Get CAPTCHA" button */
 #qr button#t-load {
-  border-color: transparent !important;
-  border-radius: 5px !important;
-}
-/* Still reply box but it's the "?" button */
-button#t-help {
   border-color: transparent !important;
   border-radius: 5px !important;
 }
@@ -132,11 +136,13 @@ button#t-help {
 div#t-bg,
 div#t-fg {
   border-radius: 5px !important;
+  filter: invert(95%) brightness(1.5);
 }
 /* Still reply box but it's the drop down menu */
 #qr select {
   border-color: transparent !important;
   border-radius: 5px !important;
+  background-color: #313237;
 }
 div#file-n-submit input {
   border-color: grey !important;
@@ -155,6 +161,10 @@ table#blotter.desktop {
 }
 /* Hide legal stuff at the bottom  */
 div#absbot {
+  display: none !important;
+}
+/* Reply box but it's the "?" button */
+button#t-help {
   display: none !important;
 }
 
