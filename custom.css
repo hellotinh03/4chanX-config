@@ -51,11 +51,13 @@ div#file-n-submit input:hover {
 #qr select:hover {
   opacity: 1 !important;
 }
-input#t-resp {
+input#t-resp,
+span#qr-filename-container.field {
   filter: brightness(1.25) !important;
   transition: all 0.2s ease-in-out !important;
 }
-input#t-resp:hover {
+input#t-resp:hover,
+span#qr-filename-container.field:hover {
   filter: brightness(1.5) !important;
 }
 input#t-resp:focus {
@@ -158,7 +160,7 @@ div#t-fg {
 /* Still reply box but it's the "Files"/"Submit" button */
 div#file-n-submit input {
   filter: none !important;
-  border-color: rgb(40, 41, 42) !important;;
+  border-color: rgb(40, 41, 42) !important;
   border-radius: 5px !important;
 }
 #file-n-submit input, #qr-draw-button {
@@ -187,5 +189,12 @@ button#t-help {
 div#file-n-submit input#qr-file-button {
   display: none !important;
 }
+span#qr-filename-container.field {
+  background: rgb(49, 50, 55) !important;
+}
 
 
+
+
+
+/* nothing here */
