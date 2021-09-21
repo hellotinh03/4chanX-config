@@ -22,10 +22,11 @@
 div.boardTitle {
   font-family: sans-serif !important;
   font-weight: bold !important;
+  font-style: italic;
 }
 
 
-/*  - Image hovering fancy animation -  */
+/*  - Hovering fancy animation -  */
 /* Image */
 img {
   transition: opacity 0.2s ease-in-out !important;
@@ -36,13 +37,21 @@ img:focus {
 }
 /* Reply box buttons */
 button#t-load,
-button#t-help, {
+button#t-help {
   transition: opacity 0.2s ease-in-out !important;
 }
 button#t-load:hover,
 button#t-load:focus,
 button#t-help:hover,
 button#t-help:focus {
+  opacity: 0.75 !important;
+}
+/* Catalog threads */
+.catalog-small .catalog-thread {
+  transition: opacity 0.2s ease-in-out !important;
+}
+.catalog-small .catalog-thread:hover,
+.catalog-small .catalog-thread:focus {
   opacity: 0.75 !important;
 }
 
@@ -80,11 +89,20 @@ iframe {
   border-radius: 10px !important;
 }
 /* "Reply to thread" button  */
-html.fourchan-x.seaweedchan.ua-gecko.js-enabled.fixed.centered-links.shortcut-icons.hide-bottom-board-list.resurrect-quotes.hide-backlinks.reply-hide.highlight-own.highlight-you.gal-fit-width.gal-fit-height.show-sauce.fit-width.fixed-watcher.sw-yotsuba.thread-view.autohiding-scrollbar.tomorrow.top-header body.is_thread.board_vg form h1.qr-link-container a.qr-link,
-html.fourchan-x.seaweedchan.ua-gecko.js-enabled.fixed.centered-links.shortcut-icons.hide-bottom-board-list.catalog-mode.resurrect-quotes.hide-backlinks.thread-hide.reply-hide.highlight-own.highlight-you.gal-fit-width.gal-fit-height.show-sauce.fit-width.fixed-watcher.sw-yotsuba.index.autohiding-scrollbar.tomorrow.top-header body.is_index.board_vg form h1.qr-link-container a.qr-link {
+form h1.qr-link-container a.qr-link,
+form h1.qr-link-container a.qr-link {
   border-radius: 5px !important;
   background: rgb(49, 50, 55) !important;
   border-color: transparent !important;
+}
+/* Board search field */
+input#index-search.field {
+  border-radius: 5px !important;
+}
+/* Catalog threads */
+.catalog-small .catalog-thread {
+    background-color: #303136;
+    border-radius: 10px;
 }
 /* Reply box */
 #qr {
