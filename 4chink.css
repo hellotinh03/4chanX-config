@@ -74,6 +74,16 @@ input#t-resp:focus {
 .postContainer.catalog-container:focus {
   background-color: #26272b !important;
 }
+/* Board search field */
+input#index-search.field {
+  transition: all 0.2s ease-in-out !important;
+}
+input#index-search.field:hover {
+  filter: brightness(1.125) !important;
+}
+input#index-search.field:focus {
+  color: #fff !important;
+}
 
 
 /*  - Make UI more flat and soulless (like me) and somewhat consistent -  */
@@ -122,6 +132,7 @@ input#index-search.field {
   border-radius: 5px !important;
   border-color: transparent !important;
   background-color: #3d3f45 !important;
+  color: #c5c8c6;
 }
 /* Catalog threads */
 .postContainer.catalog-container {
