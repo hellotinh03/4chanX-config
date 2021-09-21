@@ -154,12 +154,17 @@ input#index-search.field {
   color: #c5c8c6;
 }
 /* Board thread sorting (and theme choosing too, mostly for consistency since no one use anything other than Tomorrow) */
-span#index-options select,
-select#styleSelector {
+span#index-options select {
   border: none !important;
   background-color: #303136 !important;
   border-radius: 5px !important;
   margin-left: 5px !important;
+  transition: filter 0.2s ease-in-out !important;
+}
+select#styleSelector {
+  border: none !important;
+  background-color: #303136 !important;
+  border-radius: 5px !important;
   transition: filter 0.2s ease-in-out !important;
 }
 /* Catalog threads */
