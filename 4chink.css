@@ -109,149 +109,149 @@ span.deleteform input#bottomReportBtn:focus {
 											/*  - Make UI more flat and soulless (like me) and somewhat consistent 👀 -  */
 /* Header bar */
 #header-bar {
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.20) !important;
-  border: none !important;
-  background-color: rgb(40, 42, 46) !important;
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.20) !important;
+	border: none !important;
+	background-color: rgb(40, 42, 46) !important;
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1) !important;
 }
 /* Thread replies */
 div.reply {
-  border-radius: 7.5px !important;
+	border-radius: 7.5px !important;
 }
 /* Image thumbnails */
 .catalog-thumb,
 div.op .fileThumb img,
 div.reply .fileThumb img,
 a#selected.qr-preview {
-  border-radius: 5px !important;
+	border-radius: 5px !important;
 }
 /* 4chan ads */
 div.boardBanner img,
 div.middlead.center img {
-  border-radius: 5px !important;
+	border-radius: 5px !important;
 }
 #bannerCnt {
-  border: none !important;
+	border: none !important;
 }
 /* no idea what this is i forgor 💀 */
 .prettyprint {
-  border-radius: 3px !important;
+	border-radius: 3px !important;
 }
 /* Embedded code */
 div#embedding.dialog {
-  border-radius: 15px !important;
-  background-color: rgb(49, 50, 55);
+	border-radius: 15px !important;
+	background-color: rgb(49, 50, 55);
 }
 /* Inside of the embedded code */
 iframe {
-  border-radius: 10px !important;
+	border-radius: 10px !important;
 }
 /* "Reply to thread" button  */
 form h1.qr-link-container a.qr-link,
 form h1.qr-link-container a.qr-link {
-  border-radius: 5px !important;
-  background: rgb(49, 50, 55) !important;
-  border-color: transparent !important;
-  transition: all 0.2s ease-in-out !important;
+	border-radius: 5px !important;
+	background: rgb(49, 50, 55) !important;
+	border-color: transparent !important;
+	transition: all 0.2s ease-in-out !important;
 }
 /* Board search field */
 input#index-search.field {
-  border-radius: 5px !important;
-  border-color: transparent !important;
-  background-color: #3d3f45 !important;
-  color: #c5c8c6;
+	border-radius: 5px !important;
+	border-color: transparent !important;
+	background-color: #3d3f45 !important;
+	color: #c5c8c6;
 }
 /* Board thread sorting (and theme choosing too, mostly for consistency since no one use anything other than Tomorrow) */
 span#index-options select {
-  border: none !important;
-  background-color: #303136 !important;
-  border-radius: 5px !important;
-  margin-left: 5px !important;
-  transition: filter 0.2s ease-in-out !important;
+	border: none !important;
+	background-color: #303136 !important;
+	border-radius: 5px !important;
+	margin-left: 5px !important;
+	transition: filter 0.2s ease-in-out !important;
 }
 select#styleSelector {
-  border: none !important;
-  background-color: #303136 !important;
-  border-radius: 5px !important;
-  transition: filter 0.2s ease-in-out !important;
+	border: none !important;
+	background-color: #303136 !important;
+	border-radius: 5px !important;
+	transition: filter 0.2s ease-in-out !important;
 }
 /* Catalog threads */
 .postContainer.catalog-container {
-  top: 0;
-  background-color: #303136;
-  border-radius: 10px;
+	top: 0;
+	background-color: #303136;
+	border-radius: 10px;
 }
 /* "Delete"/"Report" button */
 span.deleteform input,
 span.deleteform input#bottomReportBtn {
-  border-radius: 5px !important;
-  border: none;
-  filter: brightness(1) !important;
-  transition: filter 0.2s ease-in-out !important;
+	border-radius: 5px !important;
+	border: none;
+	filter: brightness(1) !important;
+	transition: filter 0.2s ease-in-out !important;
 }
 span.deleteform input#bottomReportBtn {
-   margin-left: 4px !important;
+	margin-left: 4px !important;
 }
 /* Reply box */
 #qr {
-  border-radius: 7.5px !important;
-  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 7.5px !important;
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25) !important;
 }
 /* Still reply box but it's the top row - close, drop down menu, "Quick Reply" */
 #qr .close {	/* Close button */
-  float: left !important;
-  padding: 2px 0px 0px 6px !important;
-  transition: all 0.2s ease-in-out !important;
+	float: left !important;
+	padding: 2px 0px 0px 6px !important;
+	transition: all 0.2s ease-in-out !important;
 }
 #qr label input[type="checkbox"] {
-    top: 0px !important;
+	top: 0px !important;
 }
 div.move label {	/* "Quick Reply checkbox */
-  float: right !important;
-  margin: 0 7px 0 0 !important;
+	float: right !important;
+	margin: 0 7px 0 0 !important;
 }
 #qr select {	/* Still reply box but it's the drop down menu */
-  border-color: transparent !important;
-  border-radius: 5px !important;
-  background-color: #313237 !important;
-  float: left !important;
-  margin-left: 5px !important;
-  width: 182.5px !important;
+	border-color: transparent !important;
+	border-radius: 5px !important;
+	background-color: #313237 !important;
+	float: left !important;
+	margin-left: 5px !important;
+	width: 182.5px !important;
 }
 /* Still reply box but it's the text field (in general) */
 #qr .field {
-  border-radius: 5px !important;
+	border-radius: 5px !important;
 }
 /* Still reply box but it's the CAPTCHA row - typing field, "Get Captcha" button, the actual CAPTCHA */
 input#t-resp {	/* Typing field */
-  border-radius: 5px !important;
-  background: rgb(49, 50, 55) !important;
-  border-color: transparent !important;
-  padding: 0 5px !important;
-  width: 205px !important;
-  margin: 2px 0 !important;
+	border-radius: 5px !important;
+	background: rgb(49, 50, 55) !important;
+	border-color: transparent !important;
+	padding: 0 5px !important;
+	width: 205px !important;
+	margin: 2px 0 !important;
 }
 #qr button#t-load {	/* "Get Captcha" button */
-  border-color: transparent !important;
-  border-radius: 5px !important;
-  margin: 0px 3px 0px 1px !important;
+	border-color: transparent !important;
+	border-radius: 5px !important;
+	margin: 0px 3px 0px 1px !important;
 }
 div#t-bg,
 div#t-fg {	/* The actual CAPTCHA */
-  border-radius: 5px !important;
-  filter: invert(95%) brightness(1.5);
+	border-radius: 5px !important;
+	filter: invert(95%) brightness(1.5);
 }
 /* Still reply box but it's the "Files"/"Submit"/"Draw" row */
 div#file-n-submit input {	/* "Submit" */
-  filter: none !important;
-  border-color: rgb(40, 41, 42) !important;
-  border-radius: 5px !important;
+	filter: none !important;
+	border-color: rgb(40, 41, 42) !important;
+	border-radius: 5px !important;
 }
 #file-n-submit input, #qr-draw-button {	/* "Submit" and "Draw" */
-  background: rgb(192, 192, 192);
+	background: rgb(192, 192, 192);
 }
 div.oekaki input#qr-draw-button {	/* "Draw" */
-  border-radius: 5px !important;
+	border-radius: 5px !important;
 }
 
 
@@ -259,29 +259,29 @@ div.oekaki input#qr-draw-button {	/* "Draw" */
 																	/*  - Hiding things 🤐 -  */
 /* Hide "Original Form" */
 div#togglePostFormLink.desktop {
-  display: none !important;
+	display: none !important;
 }
 /* Hide blotter */
 table#blotter.desktop {
-  display: none !important;
+	display: none !important;
 }
 /* Hide legal stuff at the bottom */
 div#absbot {
-  display: none !important;
+	display: none !important;
 }
 /* Reply box but it's the "?" button */
 button#t-help {
-  display: none !important;
+	display: none !important;
 }
 /* Reply box but it's the "Files" button (since you can just click on the filename field, duh) */
 div#file-n-submit input#qr-file-button {
-  display: none !important;
+	display: none !important;
 }
 span#qr-filename-container.field {
-  background: rgb(49, 50, 55) !important;
-  border-color: transparent !important;
-  margin: 1px 2px 0 1px !important;
-  height: 23px !important;
+	background: rgb(49, 50, 55) !important;
+	border-color: transparent !important;
+	margin: 1px 2px 0 1px !important;
+	height: 23px !important;
 }
 
 
