@@ -115,7 +115,11 @@ span.deleteform input#bottomReportBtn:focus {
 	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1) !important;
 }
 /* Thread replies */
-div.reply {
+div.reply {	/* Normal Reply */
+	border-radius: 7.5px !important;
+}
+div.inline {	/* Inlined backlinks */
+	border-color: transparent !important;
 	border-radius: 7.5px !important;
 }
 /* Image thumbnails */
