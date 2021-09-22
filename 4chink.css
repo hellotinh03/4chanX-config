@@ -18,83 +18,89 @@
 */
 
 
-/*  - Board title rice -  */
+																		/*  - Board title rice -  */
 div.boardTitle {
-  font-family: sans-serif !important;
-  font-weight: bold !important;
+	font-family: sans-serif !important;
+	font-weight: bold !important;
 }
 
 
-/*  - Hovering/Clicking fancy animation -  */
+																/*  - Hovering/Clicking fancy animation -  */
 /* Image */
 img {
-  transition: opacity 0.2s ease-in-out !important;
+	transition: opacity 0.2s ease-in-out !important;
 }
 img:hover,
 a#selected.qr-preview:hover {
-  opacity: 0.75 !important;
+	opacity: 0.75 !important;
+}
+/* Spoiler text */
+div.reply s {
+	transition: all 0.1s ease-in-out !important;
 }
 /* Reply box buttons */
 button#t-load,
 div#file-n-submit input,
 div.oekaki input#qr-draw-button {
-  transition: opacity 0.2s ease-in-out !important;
+	transition: opacity 0.2s ease-in-out !important;
 }
 button#t-load:hover,
 div#file-n-submit input:hover,
 div.oekaki input#qr-draw-button:hover {
-  opacity: 0.75 !important;
+	opacity: 0.75 !important;
 }
 #qr input.field,
-#qr select {
-  opacity: 0.1 !important;
-  transition: opacity 0.2s ease-in-out !important;
+#qr select,
+div.move label {
+	opacity: 0.1 !important;
+	transition: opacity 0.2s ease-in-out !important;
 }
 #qr input.field:hover,
-#qr select:hover {
-  opacity: 1 !important;
+#qr select:hover,
+div.move label:hover {
+	opacity: 1 !important;
 }
 input#t-resp,
 span#qr-filename-container.field {
-  filter: brightness(1.25) !important;
-  transition: all 0.2s ease-in-out !important;
+	filter: brightness(1.25) !important;
+	transition: all 0.2s ease-in-out !important;
 }
 input#t-resp:hover,
 span#qr-filename-container.field:hover {
-  filter: brightness(1.5) !important;
+	filter: brightness(1.5) !important;
 }
 input#t-resp:focus {
-  filter: brightness(1) !important;
+	filter: brightness(1) !important;
 }
 /* Catalog threads */
 .postContainer.catalog-container {
-  transition: background-color 0.2s ease-in-out !important;
+	transition: background-color 0.2s ease-in-out !important;
 }
 .postContainer.catalog-container:hover,
 .postContainer.catalog-container:focus {
-  background-color: #26272b !important;
+	background-color: #26272b !important;
 }
 /* Board search field and sorting (and theme choosing too, mostly for consistency since no one use anything other than Tomorrow) */
 input#index-search.field,
 select#styleSelector, {
-  transition: all 0.2s ease-in-out !important;
+	transition: all 0.2s ease-in-out !important;
 }
 input#index-search.field:hover,
 span#index-options select:hover,
 select#styleSelector:hover {
-  filter: brightness(1.125) !important;
+	filter: brightness(1.125) !important;
 }
 input#index-search.field:focus {
-  color: #fff !important;
+	color: #fff !important;
 }
 /* "Delete"/"Report" button */
 span.deleteform input:hover,
 span.deleteform input#bottomReportBtn:hover {
-  filter: brightness(0.9) !important;
+	filter: brightness(0.9) !important;
 }
 span.deleteform input:focus,
 span.deleteform input#bottomReportBtn:focus {
-  filter: brightness(0.8) !important;
+	filter: brightness(0.8) !important;
 }
 
 
@@ -187,12 +193,34 @@ span.deleteform input#bottomReportBtn {
 /* Reply box */
 #qr {
   border-radius: 7.5px !important;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25) !important;
+}
+				/* Still reply box but it's the top row - close, drop down menu, "Quick Reply" (in that order) */
+#qr .close {																	/* Close button */
+  float: left !important;
+  padding: 2px 0px 0px 6px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+#qr label input[type="checkbox"] {
+    top: 0px !important;
+}
+div.move label {															/* "Quick Reply checkbox */
+  float: right !important;
+  margin: 0 7px 0 0 !important;
+}
+#qr select {	/* Still reply box but it's the drop down menu */
+  border-color: transparent !important;
+  border-radius: 5px !important;
+  background-color: #313237 !important;
+  float: left !important;
+  margin-left: 5px !important;
+  width: 182.5px !important;
 }
 /* Still reply box but it's the text field */
 #qr .field {
   border-radius: 5px !important;
 }
-/* Still reply box but it's the CAPTCHA typing field */
+/* Still reply box but it's the CAPTCHA row - typing field, "Get Captcha" button, the actual CAPTCHA (in the following order) */
 input#t-resp {
   border-radius: 5px !important;
   background: rgb(49, 50, 55) !important;
@@ -201,23 +229,15 @@ input#t-resp {
   width: 205px !important;
   margin: 2px 0 !important;
 }
-/* Still reply box but it's the "Get CAPTCHA" button */
 #qr button#t-load {
   border-color: transparent !important;
   border-radius: 5px !important;
   margin: 0px 3px 0px 1px !important;
 }
-/* Still reply box but it's the CAPTCHA box */
 div#t-bg,
 div#t-fg {
   border-radius: 5px !important;
   filter: invert(95%) brightness(1.5);
-}
-/* Still reply box but it's the drop down menu */
-#qr select {
-  border-color: transparent !important;
-  border-radius: 5px !important;
-  background-color: #313237;
 }
 /* Still reply box but it's the "Files"/"Submit"/"Draw" button */
 div#file-n-submit input {
