@@ -141,14 +141,23 @@ div.middlead.center img {
 .prettyprint {
 	border-radius: 3px !important;
 }
-/* Embedded code */
+/* Embedded media */
 div#embedding.dialog {
 	border-radius: 15px !important;
 	background-color: rgb(49, 50, 55);
 }
-/* Inside of the embedded code */
+/* Inside of the embedded media */
 iframe {
 	border-radius: 10px !important;
+}
+div#embedding.dialog div a.close {
+	margin-right: 5px !important;
+	font-weight: bold !important;
+	transition: all 0.2s ease-in-out !important;
+}
+div#embedding.dialog div a.jump {
+	margin: -1.5px 4px 0 0 !important;
+	transition: all 0.2s ease-in-out !important;
 }
 /* "Reply to thread" button  */
 form h1.qr-link-container a.qr-link,
