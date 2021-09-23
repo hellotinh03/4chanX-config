@@ -144,7 +144,8 @@ div.middlead.center img {
 /* Embedded media */
 div#embedding.dialog {
 	border-radius: 15px !important;
-	background-color: rgb(49, 50, 55);
+	background-color: rgb(49, 50, 55) !important;
+	border-color: transparent !important;
 }
 /* Inside of the embedded media */
 iframe {
