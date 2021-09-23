@@ -216,6 +216,7 @@ span.deleteform input#bottomReportBtn {
 	float: left !important;
 	padding: 2px 0px 0px 6px !important;
 	transition: all 0.2s ease-in-out !important;
+	font-weight: bold !important;
 }
 #qr label input[type="checkbox"] {
 	top: 0px !important;
