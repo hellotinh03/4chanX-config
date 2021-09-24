@@ -206,6 +206,29 @@ span.deleteform input#bottomReportBtn {
 span.deleteform input#bottomReportBtn {
 	margin-left: 4px !important;
 }
+/* Thread watcher */
+div#thread-watcher.dialog {	/* Watcher box */
+	border-color: transparent !important;
+	border-radius: 7.5px !important;
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25) !important;
+}
+div#thread-watcher.dialog div.move a.close {	/* Close button */
+	top: unset !important;
+	padding: 0px 6px 0 0 !important;
+	font-weight: bold !important;
+}
+div#thread-watcher.dialog div.move span#watcher-status {	/* Watcher updating percentage */
+	margin: 2.5px 20px 0 0 !important;
+	font-size: 8pt !important;
+	opacity: 0.75 !important;
+	font-weight: bold !important;
+	float: right !important;
+}
+div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
+	border-color: transparent !important;
+	border-radius: 7.5px !important;
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25) !important;
+}
 /* Reply box */
 #qr {
 	border-radius: 7.5px !important;
@@ -221,7 +244,7 @@ span.deleteform input#bottomReportBtn {
 #qr label input[type="checkbox"] {
 	top: 0px !important;
 }
-div.move label {	/* "Quick Reply checkbox */
+div#qr.dialog.has-spoiler.show-new-thread-option.has-captcha.captcha-t div.move label {	/* "Quick Reply checkbox */
 	float: right !important;
 	margin: 0 7px 0 0 !important;
 }
