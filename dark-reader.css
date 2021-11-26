@@ -1,0 +1,115 @@
+body {
+	background: #1d1f21 none;
+	color: #c5c8c6;
+}
+
+#logo-fp img {
+	filter: grayscale(1) contrast(0) brightness(1.9);
+}
+
+a:visited {
+	color: #81a2be;
+}
+
+#disclaimer-dialog .container-close, .closebutton {
+	filter: grayscale(1) contrast(0.6);
+	margin: 5px;
+	border-radius: 2px;
+}
+
+#announce, .top-box {
+	background: #282a2e;
+	color: #c5c8c6;
+}
+
+#boards a {
+	color: #81a2be !important;
+}
+
+div.boxbar, #announce.box-outer .box-inner .boxbar {
+	color: #fff;
+	background: #303136;
+	border-radius: 10px 10px 0 0;
+}
+
+.box-outer {
+	border: none;
+	border-radius: 10px;
+}
+
+.c-thread img {
+	border: none;
+	border-radius: 5px;
+}
+
+#copyright a {
+	color: #81a2be;
+}
+
+#ft li {
+	background: #303136;
+	border: none;
+}
+
+#ft li.current, #ft li.fill {
+	visibility: hidden;
+	border: none;
+}
+
+#ft ul {
+	border-top: none;
+	margin-left: -8px;
+	margin-top: 30px;
+}
+
+#ft li a {
+	color: #81a2be;
+}
+
+#ft li.first {
+	border-radius: 10px;
+	border-right: 2px solid #1d1f21;
+	border-left: none;
+}
+
+#ft ul li {
+	border-radius: 10px;
+	border-right: 2px solid #1d1f21;
+	border-left: 2px solid #1d1f21;
+}
+
+#fp-menu ul {
+	background: #303136;
+}
+
+#fp-menu {
+	border: none;
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,.1);
+}
+
+#ft li a:hover {
+	color: #81a2be;
+	text-decoration: underline;
+}
+
+#fp-menu li:hover {
+	background: none;
+	color: #fff;
+	transition: color 0.2s ease-in-out;
+}
+
+#filter-btn, #opts-btn {
+	margin-right: 5px;
+}
+
+#filter-btn:hover, #opts-btn:hover {
+	color: #fff;
+	filter: brightness(0.8);
+	transition: filter 0.2s ease-in-out;
+}
+
+
+
+
+
+		/* END */
