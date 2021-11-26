@@ -1,3 +1,22 @@
+/*
+>-------------------------------------------------------------------------------------------------------------------------------------------------<
+	This was made for Dark Reader [https://github.com/darkreader/darkreader] to apply the Tomorrow theme to 4chan.org/4channel.org.
+
+	How to use (for dummies):
+		> Install Dark Reader
+		> Go to 4chan.org/4channel.org
+		> Click on the Dark Reader extension icon/go to Dark Reader preferences
+		> Go to "More"
+		> Click on "Only for 4chan.org"/"Only for 4channel.org"
+		> On "Theme Generation Mode", choose "Static"
+		> Click the little orange pencil thingy that just pops up
+		> Paste all of this into the textbox window
+		> Click "Apply" and then close the textbox window
+		> Done
+>-------------------------------------------------------------------------------------------------------------------------------------------------<
+*/
+
+
 body {
 	background: #1d1f21 none;
 	color: #c5c8c6;
@@ -111,5 +130,5 @@ div.boxbar, #announce.box-outer .box-inner .boxbar {
 
 
 
-
+	/* Made by Cretzen */
 		/* END */
