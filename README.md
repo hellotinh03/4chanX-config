@@ -8,6 +8,5 @@
 
 <b> [Shortcut to Dark Reader CSS](https://raw.githubusercontent.com/hellotinh03/4chanX-config/main/dark-reader.css) </b>
 
-Requires [Dark Reader](https://github.com/darkreader/darkreader)
-Instruction is in the CSS file.
+Requires [Dark Reader](https://github.com/darkreader/darkreader). Instruction is in the CSS file.
 
