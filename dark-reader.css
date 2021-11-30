@@ -61,6 +61,14 @@ div.boxbar, #announce.box-outer .box-inner .boxbar {
 	border-radius: 5px;
 }
 
+img {
+	transition: opacity 0.2s ease-in-out !important;
+}
+img:hover,
+a#selected.qr-preview:hover {
+	opacity: 0.75 !important;
+}
+
 #copyright a {
 	color: #81a2be;
 }
