@@ -58,11 +58,7 @@ div.move label {
 }
 #qr input.field:hover,
 #qr select:hover,
-div.move label:hover,
-#qr input.field:focus,
-#qr select:focus,
-div.move label:focus,
-{
+div.move label:hover{
 	opacity: 1 !important;
 }
 input#t-resp,
