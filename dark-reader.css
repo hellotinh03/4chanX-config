@@ -36,8 +36,11 @@ a:visited {
 	border-radius: 2px;
 }
 
-#announce, .top-box, .boxcontent, .boxcontent a, .leftbox, .boxbar {
+#announce, .top-box, .boxcontent, .leftbox, .boxbar {
 	background: #282a2e;
+	color: #c5c8c6;
+}
+.boxcontent a {
 	color: #c5c8c6;
 }
 
