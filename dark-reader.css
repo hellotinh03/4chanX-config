@@ -22,6 +22,10 @@ body {
 	color: #c5c8c6;
 }
 
+div#abc-cnt {
+	display: none !important;
+}
+
 #logo-fp img {
 	filter: grayscale(1) contrast(0) brightness(1.9);
 }
