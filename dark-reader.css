@@ -40,9 +40,17 @@ a:visited {
 }
 
 #disclaimer-dialog .hd {
+	transition: opacity 0.2s ease-in-out !important;
+	border: none !important;
 	border-radius: 9px 9px 0 0;
-	background: rgba(240, 100, 73, .975) !important;
-}	
+	background: rgba(240, 100, 73) !important;
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25) !important;
+}
+
+#backdrop {
+	transition: opacity 0.2s ease-in-out !important;
+	background-color: rgba(0,0,0,.5) !important;
+}
 
 #disclaimer-dialog .container-close, .closebutton {
 	filter: grayscale(1) contrast(0.6);
