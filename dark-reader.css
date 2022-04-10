@@ -34,6 +34,16 @@ a:visited {
 	color: #81a2be;
 }
 
+#disclaimer-dialog {
+	border-radius: 10px;
+	background: #282a2e;
+}
+
+#disclaimer-dialog .hd {
+	border-radius: 9px 9px 0 0;
+	background: rgba(240, 100, 73, .975) !important;
+}	
+
 #disclaimer-dialog .container-close, .closebutton {
 	filter: grayscale(1) contrast(0.6);
 	margin: 5px;
