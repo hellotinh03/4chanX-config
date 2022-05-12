@@ -37,7 +37,14 @@ a#selected.qr-preview:hover {
 }
 /* Spoiler text */
 div.reply s {
-	transition: all 0.1s ease-in-out !important;
+	transition: all 0.15s ease-in-out !important;
+	background: none !important;
+	color: #ffffff !important;
+	filter: blur(3px);
+}
+div.reply s:hover {
+	color: #c5c8c6 !important;
+	filter: none !important;
 }
 /* Reply box buttons */
 button#t-load,
