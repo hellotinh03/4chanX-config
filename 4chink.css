@@ -36,13 +36,13 @@ a#selected.qr-preview:hover {
 	opacity: 0.75 !important;
 }
 /* Spoiler text */
-div.reply s {
+s {
 	transition: all 0.15s ease-in-out !important;
 	background: none !important;
 	color: #ffffff !important;
 	filter: blur(3px);
 }
-div.reply s:hover {
+s:hover {
 	color: #c5c8c6 !important;
 	filter: none !important;
 }
