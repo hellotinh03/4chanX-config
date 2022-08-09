@@ -35,6 +35,9 @@ img:hover,
 a#selected.qr-preview:hover {
 	opacity: 0.75 !important;
 }
+.gal-image img:hover {
+	opacity: 1 !important;
+}
 /* Spoiler text */
 s {
 	transition: all 0.15s ease-in-out !important;
@@ -346,6 +349,10 @@ div#togglePostFormLink.desktop {
 }
 /* Hide blotter */
 table#blotter.desktop {
+	display: none !important;
+}
+/* Hide "title" button since 4chan no longer supports them */
+.webm-title {
 	display: none !important;
 }
 /* Hide legal stuff at the bottom */
