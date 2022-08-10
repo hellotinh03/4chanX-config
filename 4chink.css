@@ -35,7 +35,8 @@ img:hover,
 a#selected.qr-preview:hover {
 	opacity: 0.75 !important;
 }
-.gal-image img:hover {
+.gal-image img:hover,
+.full-image img:hover {
 	opacity: 1 !important;
 }
 /* Spoiler text */
