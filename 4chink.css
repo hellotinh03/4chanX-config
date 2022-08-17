@@ -258,13 +258,15 @@ div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
 	transtion: all 0.2s ease-in-out !important;
 }
 	/* mine */
+/*
 .notification.success {
     background-color: rgba(51, 115, 87, .975) !important;
 }
 .notification.warning {
     background-color: rgba(240, 100, 73, .975) !important;
 }
-	/* default (official Tomorrow Night color palette) /
+*/
+	/* default (official Tomorrow Night color palette) */
 .notification.success {
     background-color: rgba(181, 189, 104, .975);
 }
