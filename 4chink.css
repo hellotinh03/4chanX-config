@@ -94,7 +94,7 @@ input#t-resp:focus {
 }
 /* Board search field and sorting (and theme choosing too, mostly for consistency since no one use anything other than Tomorrow) */
 input#index-search.field,
-select#styleSelector, {
+select#styleSelector {
 	transition: all 0.2s ease-in-out !important;
 }
 input#index-search.field:hover,
@@ -229,7 +229,7 @@ div#thread-watcher.dialog {	/* Watcher box */
 }
 div#thread-watcher.dialog div.move a.close {	/* Close button */
 	top: unset !important;
-	padding: 0px 6px 0 0 !important;
+	padding: 0 6px 0 0 !important;
 	font-weight: bold !important;
 }
 div#thread-watcher.dialog div.move span#watcher-status {	/* Watcher updating percentage */
@@ -249,13 +249,13 @@ div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
 	text-shadow: none !important;
 	border-radius: 10px !important;
 	margin-top: 15px;
-	transtion: all 0.2s ease-in-out !important
+	transition: all 0.2s ease-in-out !important;
 }
 	
 #notifications .notification .close {
 	padding: 5.5px 7px 0 0 !important;
 	filter: brightness(2) grayscale(100%) !important;
-	transtion: all 0.2s ease-in-out !important;
+	transition: all 0.2s ease-in-out !important;
 }
 	/* mine */
 /*
@@ -288,12 +288,12 @@ div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
 /* Still reply box but it's the top row - close, drop down menu, "Quick Reply" */
 #qr .close {	/* Close button */
 	float: left !important;
-	padding: 2px 0px 0px 6px !important;
+	padding: 2px 0 0 6px !important;
 	transition: all 0.2s ease-in-out !important;
 	font-weight: bold !important;
 }
 #qr label input[type="checkbox"] {
-	top: 0px !important;
+	top: 0 !important;
 }
 div#qr.dialog.has-spoiler.show-new-thread-option.has-captcha.captcha-t div.move label {	/* "Quick Reply checkbox */
 	float: right !important;
@@ -323,7 +323,7 @@ input#t-resp {	/* Typing field */
 #qr button#t-load {	/* "Get Captcha" button */
 	border-color: transparent !important;
 	border-radius: 5px !important;
-	margin: 0px 3px 0px 1px !important;
+	margin: 0 3px 0 1px !important;
 }
 div#t-bg,
 div#t-fg {	/* The actual CAPTCHA */
