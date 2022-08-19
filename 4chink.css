@@ -267,6 +267,7 @@ div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
 }
 */
 	/* default (official Tomorrow Night color palette) */
+/*
 .notification.success {
     background-color: rgba(181, 189, 104, .975);
 }
@@ -279,6 +280,7 @@ div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
 .notification.error {
     background-color: rgba(204, 102, 102, .975);
 }
+*/
 	
 /* Reply box */
 #qr {
