@@ -7,5 +7,5 @@
 
 <b> [Shortcut to the homepage CSS](https://raw.githubusercontent.com/hellotinh03/4chanX-config/main/dark-reader.css) </b>
 
-Requires a CSS customizing extension like [Dark Reader](https://github.com/darkreader/darkreader) or [Stylus](https://github.com/openstyles/stylus). Instruction is in the CSS file.
+Requires a CSS customizing extension like [Stylus](https://github.com/openstyles/stylus) or [Dark Reader](https://github.com/darkreader/darkreader). Instruction is in the CSS file.
 
