@@ -256,29 +256,30 @@ div#thread-watcher.dialog div.move div#menu.dialog {	/* Drop down menu */
 	padding: 5.5px 7px 0 0 !important;
 	filter: brightness(2) grayscale(100%) !important;
 	transition: all 0.2s ease-in-out !important;
+	backdrop-filter: blur(5px);
 }
 	/* mine */
 /*
 .notification.success {
-    background-color: rgba(51, 115, 87, .975) !important;
+    background-color: rgba(51, 115, 87, .85) !important;
 }
 .notification.warning {
-    background-color: rgba(240, 100, 73, .975) !important;
+    background-color: rgba(240, 100, 73, .85) !important;
 }
 */
 	/* default (official Tomorrow Night color palette) */
 /*
 .notification.success {
-    background-color: rgba(181, 189, 104, .975);
+    background-color: rgba(181, 189, 104, .85);
 }
 .notification.info {
-    background-color: rgba(129, 162, 190, .975);
+    background-color: rgba(129, 162, 190, .85);
 }
 .notification.warning {
-    background-color: rgba(222, 147, 95, .975);
+    background-color: rgba(222, 147, 95, .85);
 }
 .notification.error {
-    background-color: rgba(204, 102, 102, .975);
+    background-color: rgba(204, 102, 102, .85);
 }
 */
 	
