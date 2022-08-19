@@ -1,6 +1,6 @@
 # Cretzen's 4chan X config
 
-<b> Paste this to your 4chan X CSS box </b>
+<b> Paste this to your 4chan X CSS box: </b>
 <br>
 <code> @import url(https://hellotinh03.github.io/4chanX-config/4chink.css); </code>
 
