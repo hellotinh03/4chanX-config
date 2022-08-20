@@ -95,7 +95,10 @@ img {
 }
 img:hover,
 a#selected.qr-preview:hover {
-	opacity: 0.75 !important;
+	opacity: 0.75;
+}
+a img:hover {
+	opacity: 1 !important;
 }
 
 #copyright a {
@@ -167,8 +170,10 @@ a#selected.qr-preview:hover {
 
 /* News page */
 .content h3 {
-	background: #282a2e;
-	border-radius: 5px;
+	background: #303136;
+	border-radius: 10px;
+	color: #fff;
+	border: none;
 }
 
 
