@@ -105,6 +105,10 @@ a img:hover {
 	color: #81a2be;
 }
 
+#ft .fill {
+	display: none;
+}
+
 #ft li {
 	background: #303136;
 	border: none;
@@ -117,8 +121,9 @@ a img:hover {
 
 #ft ul {
 	border-top: none;
-	margin-left: -8px;
 	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 #ft li a {
@@ -169,6 +174,10 @@ a img:hover {
 
 
 /* News page */
+.content {
+	color: #c5c8c6;
+}
+
 .content h3 {
 	background: #303136;
 	border-radius: 10px;
@@ -176,6 +185,10 @@ a img:hover {
 	border: none;
 }
 
+/* FAQ */
+dt {
+	color: #fff;
+}
 
 
 	/* Made by Cretzen */
