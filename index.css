@@ -85,7 +85,8 @@ div.boxbar, #announce.box-outer .box-inner .boxbar {
 	border-radius: 10px;
 }
 
-.c-thread img {
+.c-thread img,
+.content img {
 	border: none;
 	border-radius: 5px;
 }
@@ -97,7 +98,7 @@ img:hover,
 a#selected.qr-preview:hover {
 	opacity: 0.75;
 }
-a img:hover {
+.content img:hover {
 	opacity: 1 !important;
 }
 
@@ -124,6 +125,7 @@ a img:hover {
 	margin-top: 30px;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #ft li a {
@@ -170,6 +172,11 @@ a img:hover {
 	color: #fff;
 	filter: brightness(0.8);
 	transition: filter 0.2s ease-in-out;
+}
+
+hr {
+	color: #c5c8c6;
+	background: #c5c8c6;
 }
 
 
