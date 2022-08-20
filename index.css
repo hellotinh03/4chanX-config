@@ -190,6 +190,20 @@ dt {
 	color: #fff;
 }
 
+.box-outer {
+	background: #282a2e;
+}
+
+.box-bar {
+	background: #303136;
+	color: #fff;
+}
+
+/* 4chan Pass */
+.retina {
+	filter: grayscale(1) contrast(1.5);
+}
+
 
 	/* Made by Cretzen */
 		/* END */
