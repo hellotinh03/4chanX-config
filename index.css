@@ -187,16 +187,16 @@ a img:hover {
 
 /* FAQ */
 dt {
-	color: #fff;
+	color: #fff !important;
 }
 
 .box-outer {
-	background: #282a2e;
+	background: #282a2e !important;
 }
 
 .box-bar {
-	background: #303136;
-	color: #fff;
+	background: #303136 !important;
+	color: #fff !important;
 }
 
 /* 4chan Pass */
