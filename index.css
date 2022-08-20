@@ -16,9 +16,11 @@
 >-------------------------------------------------------------------------------------------------------------------------------------------------<
 */
 
+/* Homepage */
 html {
     background: inherit;
 }
+
 body {
 	background: #1d1f21 none;
 	color: #c5c8c6;
@@ -162,6 +164,12 @@ a#selected.qr-preview:hover {
 	transition: filter 0.2s ease-in-out;
 }
 
+
+/* News page */
+.content h3 {
+	background: #282a2e;
+	border-radius: 5px;
+}
 
 
 
