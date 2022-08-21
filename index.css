@@ -86,7 +86,8 @@ div.boxbar, #announce.box-outer .box-inner .boxbar {
 }
 
 .c-thread img,
-.content img {
+.content img,
+.boxbar img {
 	border: none;
 	border-radius: 5px;
 }
