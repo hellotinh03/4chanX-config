@@ -33,7 +33,7 @@ img {
 }
 img:hover,
 a#selected.qr-preview:hover {
-	opacity: 0.75 !important;
+	opacity: 0.75;
 }
 .gal-image img:hover,
 .full-image img:hover {
