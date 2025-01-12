@@ -69,6 +69,10 @@ a:visited {
 .boxcontent a, .boxcontent > ul {
 	color: #c5c8c6;
 }
+.boxcontent {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 #boards a {
 	color: #81a2be !important;
